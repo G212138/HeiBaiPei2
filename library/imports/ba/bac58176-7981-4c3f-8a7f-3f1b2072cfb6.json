@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "heibai",
+    "texture": "dae975ca-1259-4b57-bd4a-93e218d7c82c",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      1424,
+      519
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1428,
+      523
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

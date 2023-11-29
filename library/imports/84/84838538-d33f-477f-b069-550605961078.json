@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bitmap 2",
+    "texture": "419a84df-27ce-4ed7-87a2-6120ce55af32",
+    "atlas": "60963885-2142-4122-a870-e284dabc5cf0",
+    "rect": [
+      0,
+      127,
+      1068,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1068,
+      45
+    ],
+    "capInsets": [
+      27,
+      0,
+      31,
+      0
+    ]
+  }
+}

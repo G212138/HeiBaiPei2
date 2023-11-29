@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "perfect_pig",
+    "texture": "ebeec159-1d76-45e1-881b-e12c5206925b",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      2037,
+      2041
+    ],
+    "offset": [
+      -3.5,
+      1.5
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

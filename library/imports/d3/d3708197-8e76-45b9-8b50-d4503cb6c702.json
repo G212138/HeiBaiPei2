@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_6_6biaoge",
+    "texture": "235fa416-d3c0-4f4e-bc98-9b63eaa40ab2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1876,
+      1862
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1876,
+      1862
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

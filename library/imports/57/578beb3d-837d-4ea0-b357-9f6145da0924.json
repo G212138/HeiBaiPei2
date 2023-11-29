@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_caomei",
+    "texture": "a6dd280d-889d-4008-a3ab-4df39170f69b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      71,
+      77
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      71,
+      77
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

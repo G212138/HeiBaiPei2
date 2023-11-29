@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "laba",
+    "texture": "2a3757dd-2e10-46f2-bf57-154abf65c3f6",
+    "atlas": "",
+    "rect": [
+      3,
+      3,
+      208,
+      110
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      214,
+      116
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

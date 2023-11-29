@@ -1,0 +1,16 @@
+{
+    "name": "framework",
+    "version": "1.0.0",
+    "description": "培优交互游戏开发框架   ---",
+    "main": "",
+    "scripts": {
+        "update": "node updateFrame.js",
+        "build": "node buildProject.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "zip-local": "^0.3.4"
+    },
+    "devDependencies": {}
+}

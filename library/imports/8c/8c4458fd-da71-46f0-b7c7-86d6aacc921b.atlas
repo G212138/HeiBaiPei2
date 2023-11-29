@@ -1,0 +1,279 @@
+
+perfect_jingwei.png
+size: 1841,1152
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0COOL
+  rotate: false
+  xy: 1375, 635
+  size: 240, 87
+  orig: 240, 87
+  offset: 0, 0
+  index: -1
+1GOOD
+  rotate: true
+  xy: 1575, 393
+  size: 240, 87
+  orig: 240, 87
+  offset: 0, 0
+  index: -1
+2GREAT
+  rotate: false
+  xy: 434, 91
+  size: 240, 87
+  orig: 240, 87
+  offset: 0, 0
+  index: -1
+PERFECT
+  rotate: false
+  xy: 406, 2
+  size: 240, 87
+  orig: 240, 87
+  offset: 0, 0
+  index: -1
+beijing01
+  rotate: false
+  xy: 566, 730
+  size: 419, 420
+  orig: 419, 420
+  offset: 0, 0
+  index: -1
+beijing02
+  rotate: false
+  xy: 846, 404
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+book
+  rotate: true
+  xy: 834, 30
+  size: 86, 238
+  orig: 86, 238
+  offset: 0, 0
+  index: -1
+dian
+  rotate: false
+  xy: 1549, 9
+  size: 59, 58
+  orig: 59, 58
+  offset: 0, 0
+  index: -1
+diban
+  rotate: false
+  xy: 2, 18
+  size: 402, 129
+  orig: 402, 129
+  offset: 0, 0
+  index: -1
+happy_all
+  rotate: false
+  xy: 2, 608
+  size: 562, 542
+  orig: 562, 542
+  offset: 0, 0
+  index: -1
+happy_lingyu_01
+  rotate: true
+  xy: 1664, 451
+  size: 190, 115
+  orig: 190, 115
+  offset: 0, 0
+  index: -1
+happy_meimao_l
+  rotate: false
+  xy: 566, 611
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+happy_meimao_r
+  rotate: false
+  xy: 801, 669
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+happy_star_01
+  rotate: true
+  xy: 1617, 643
+  size: 79, 156
+  orig: 79, 156
+  offset: 0, 0
+  index: -1
+happy_star_02
+  rotate: false
+  xy: 1375, 611
+  size: 18, 22
+  orig: 18, 22
+  offset: 0, 0
+  index: -1
+happy_weiba
+  rotate: true
+  xy: 1664, 345
+  size: 104, 123
+  orig: 104, 123
+  offset: 0, 0
+  index: -1
+hongguang
+  rotate: false
+  xy: 2, 149
+  size: 430, 457
+  orig: 430, 457
+  offset: 0, 0
+  index: -1
+huangguan1
+  rotate: false
+  xy: 1566, 207
+  size: 140, 136
+  orig: 140, 136
+  offset: 0, 0
+  index: -1
+huangguan_gra
+  rotate: false
+  xy: 1549, 69
+  size: 140, 136
+  orig: 140, 136
+  offset: 0, 0
+  index: -1
+laba01
+  rotate: false
+  xy: 1132, 583
+  size: 241, 155
+  orig: 241, 155
+  offset: 0, 0
+  index: -1
+laba02
+  rotate: true
+  xy: 1708, 237
+  size: 106, 102
+  orig: 106, 102
+  offset: 0, 0
+  index: -1
+laba03
+  rotate: true
+  xy: 1418, 392
+  size: 241, 155
+  orig: 241, 155
+  offset: 0, 0
+  index: -1
+laba04
+  rotate: false
+  xy: 1708, 132
+  size: 105, 103
+  orig: 105, 103
+  offset: 0, 0
+  index: -1
+languangyun
+  rotate: false
+  xy: 987, 740
+  size: 426, 410
+  orig: 426, 410
+  offset: 0, 0
+  index: -1
+lanyuan
+  rotate: false
+  xy: 846, 118
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+lihua_r_01
+  rotate: true
+  xy: 1418, 208
+  size: 182, 146
+  orig: 182, 146
+  offset: 0, 0
+  index: -1
+lihua_r_02
+  rotate: true
+  xy: 1418, 9
+  size: 197, 129
+  orig: 197, 129
+  offset: 0, 0
+  index: -1
+lvdian
+  rotate: false
+  xy: 1610, 8
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+lvguangyun
+  rotate: true
+  xy: 1415, 724
+  size: 426, 410
+  orig: 426, 410
+  offset: 0, 0
+  index: -1
+lvyuan
+  rotate: false
+  xy: 1132, 297
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1
+shu01
+  rotate: false
+  xy: 676, 28
+  size: 156, 150
+  orig: 156, 150
+  offset: 0, 0
+  index: -1
+shu_L
+  rotate: true
+  xy: 1781, 489
+  size: 233, 58
+  orig: 233, 58
+  offset: 0, 0
+  index: -1
+shu_R
+  rotate: false
+  xy: 566, 630
+  size: 233, 58
+  orig: 233, 58
+  offset: 0, 0
+  index: -1
+shudi
+  rotate: false
+  xy: 566, 690
+  size: 502, 38
+  orig: 502, 38
+  offset: 0, 0
+  index: -1
+shuye_zhong
+  rotate: false
+  xy: 987, 730
+  size: 58, 8
+  orig: 58, 8
+  offset: 0, 0
+  index: -1
+xingxing
+  rotate: true
+  xy: 1070, 690
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+zidian
+  rotate: false
+  xy: 1691, 71
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+ziguangyun
+  rotate: true
+  xy: 434, 180
+  size: 426, 410
+  orig: 426, 410
+  offset: 0, 0
+  index: -1
+ziyuan
+  rotate: false
+  xy: 1132, 11
+  size: 284, 284
+  orig: 284, 284
+  offset: 0, 0
+  index: -1

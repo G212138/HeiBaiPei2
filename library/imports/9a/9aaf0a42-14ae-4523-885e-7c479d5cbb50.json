@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "perfect_dakuan",
+    "texture": "a447ce92-afcf-4eb3-aeb0-094c494c7ede",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2048,
+      2048
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2048,
+      2048
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "loading_page.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Bitmap 1": {
+      "__uuid__": "40629a03-8b06-41b6-a544-cc2042368cdc"
+    },
+    "Bitmap 2": {
+      "__uuid__": "84838538-d33f-477f-b069-550605961078"
+    },
+    "Bitmap 3": {
+      "__uuid__": "dde62278-4979-4536-b772-b1923f9e1cbb"
+    }
+  }
+}

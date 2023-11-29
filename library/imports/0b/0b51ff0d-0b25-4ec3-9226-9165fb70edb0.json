@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Img_dian",
+    "texture": "b0ed108b-a7e6-49f3-82ee-8261a94279f6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      13,
+      12
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      13,
+      12
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

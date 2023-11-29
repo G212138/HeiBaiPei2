@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "levelBoard",
+    "texture": "aa648482-eb12-494f-b851-5ef986c40c98",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      260,
+      120
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      260,
+      120
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

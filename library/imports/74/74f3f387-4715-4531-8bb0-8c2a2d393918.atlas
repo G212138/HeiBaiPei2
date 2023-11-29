@@ -1,0 +1,97 @@
+
+Excellent.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Excellent
+  rotate: false
+  xy: 716, 1847
+  size: 938, 195
+  orig: 938, 195
+  offset: 0, 0
+  index: -1
+circle01
+  rotate: false
+  xy: 1932, 1931
+  size: 110, 111
+  orig: 110, 111
+  offset: 0, 0
+  index: -1
+circle02
+  rotate: false
+  xy: 1656, 1767
+  size: 274, 275
+  orig: 274, 275
+  offset: 0, 0
+  index: -1
+circle03
+  rotate: false
+  xy: 1170, 1462
+  size: 384, 383
+  orig: 384, 383
+  offset: 0, 0
+  index: -1
+circle04
+  rotate: false
+  xy: 716, 1393
+  size: 452, 452
+  orig: 452, 452
+  offset: 0, 0
+  index: -1
+circle05
+  rotate: false
+  xy: 2, 192
+  size: 532, 531
+  orig: 532, 531
+  offset: 0, 0
+  index: -1
+circle06
+  rotate: false
+  xy: 2, 725
+  size: 602, 603
+  orig: 602, 603
+  offset: 0, 0
+  index: -1
+circle07
+  rotate: false
+  xy: 2, 1330
+  size: 712, 712
+  orig: 712, 712
+  offset: 0, 0
+  index: -1
+jiangbei
+  rotate: false
+  xy: 716, 1081
+  size: 448, 310
+  orig: 448, 310
+  offset: 0, 0
+  index: -1
+yumaoyou1
+  rotate: false
+  xy: 1556, 1533
+  size: 226, 232
+  orig: 226, 232
+  offset: 0, 0
+  index: -1
+yumaoyou2
+  rotate: false
+  xy: 2, 2
+  size: 263, 188
+  orig: 263, 188
+  offset: 0, 0
+  index: -1
+yumaozuo1
+  rotate: false
+  xy: 1784, 1533
+  size: 226, 232
+  orig: 226, 232
+  offset: 0, 0
+  index: -1
+yumaozuo2
+  rotate: false
+  xy: 267, 2
+  size: 262, 188
+  orig: 262, 188
+  offset: 0, 0
+  index: -1

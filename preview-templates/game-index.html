@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link rel="icon" href="app/editor/static/preview-templates/favicon.ico"></link>
+  <meta charset="utf-8">
+  <title><%=title%></title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <style>
+    html,body{
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+  <div id="splash">
+    <div class="progress-bar stripes">
+      <span style="width: 0%"></span>
+    </div>
+  </div>
+  <script src="settings.js" charset="utf-8"></script>
+  <script src="boot.js" charset="utf-8"></script>
+  <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+  <script src="app/engine/bin/cocos2d-js-for-preview.js" charset="utf-8"></script>
+  <script src="preview-scripts/__quick_compile__.js" charset="utf-8"></script>
+  <!-- <script src="iframe-msg.js" charset="utf-8"></script> -->
+  <!-- <script src="ali_log.min.js" charset="utf-8"></script> -->
+  <script src="game-msg.min.js" charset="utf-8"></script>
+  <script>
+    (function(){
+      aliLogMsg.init("100485446","12345","8683","13","test");
+    })();
+  </script>
+</body>
+</html>

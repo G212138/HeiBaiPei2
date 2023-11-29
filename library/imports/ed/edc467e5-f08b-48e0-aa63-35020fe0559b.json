@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pgbg_jindutiao",
+    "texture": "480d4d06-561e-44c8-8a00-a7b53cb9766d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      792,
+      135
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      792,
+      135
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

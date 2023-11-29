@@ -1,0 +1,209 @@
+
+heibai.png
+size: 1428,523
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eft_smoke1-1
+  rotate: true
+  xy: 701, 254
+  size: 267, 232
+  orig: 283, 232
+  offset: 8, 0
+  index: -1
+eft_smoke1-2
+  rotate: true
+  xy: 2, 238
+  size: 283, 231
+  orig: 283, 232
+  offset: 0, 1
+  index: -1
+eft_smoke1-3
+  rotate: true
+  xy: 235, 251
+  size: 270, 220
+  orig: 283, 232
+  offset: 9, 12
+  index: -1
+eft_smoke1-4
+  rotate: true
+  xy: 709, 6
+  size: 246, 214
+  orig: 283, 232
+  offset: 19, 11
+  index: -1
+eft_smoke1-5
+  rotate: false
+  xy: 1165, 302
+  size: 242, 219
+  orig: 283, 232
+  offset: 25, 6
+  index: -1
+eft_smoke1-6
+  rotate: true
+  xy: 488, 4
+  size: 248, 219
+  orig: 283, 232
+  offset: 20, 6
+  index: -1
+eft_smoke2-1
+  rotate: true
+  xy: 925, 9
+  size: 243, 238
+  orig: 311, 254
+  offset: 41, 0
+  index: -1
+eft_smoke2-2
+  rotate: true
+  xy: 261, 2
+  size: 247, 225
+  orig: 311, 254
+  offset: 39, 20
+  index: -1
+eft_smoke2-3
+  rotate: false
+  xy: 2, 3
+  size: 257, 233
+  orig: 311, 254
+  offset: 35, 16
+  index: -1
+eft_smoke2-4
+  rotate: true
+  xy: 457, 254
+  size: 267, 242
+  orig: 311, 254
+  offset: 30, 12
+  index: -1
+eye-close
+  rotate: false
+  xy: 935, 453
+  size: 98, 22
+  orig: 98, 22
+  offset: 0, 0
+  index: -1
+eye-cry
+  rotate: false
+  xy: 935, 342
+  size: 106, 32
+  orig: 106, 32
+  offset: 0, 0
+  index: -1
+eye-happu
+  rotate: false
+  xy: 935, 432
+  size: 98, 19
+  orig: 98, 19
+  offset: 0, 0
+  index: -1
+eye-jingya
+  rotate: false
+  xy: 935, 256
+  size: 101, 44
+  orig: 102, 44
+  offset: 1, 0
+  index: -1
+eye-yanbai
+  rotate: false
+  xy: 935, 477
+  size: 101, 44
+  orig: 101, 44
+  offset: 0, 0
+  index: -1
+eye-yanzhu
+  rotate: false
+  xy: 935, 401
+  size: 88, 29
+  orig: 88, 29
+  offset: 0, 0
+  index: -1
+eyeborwL
+  rotate: true
+  xy: 1409, 309
+  size: 25, 8
+  orig: 25, 8
+  offset: 0, 0
+  index: -1
+eyeborwR
+  rotate: true
+  xy: 1409, 309
+  size: 25, 8
+  orig: 25, 8
+  offset: 0, 0
+  index: -1
+mouth-cry
+  rotate: true
+  xy: 1409, 470
+  size: 30, 16
+  orig: 30, 16
+  offset: 0, 0
+  index: -1
+mouth-happy
+  rotate: true
+  xy: 1116, 267
+  size: 33, 23
+  orig: 33, 23
+  offset: 0, 0
+  index: -1
+mouth-jingya
+  rotate: false
+  xy: 1409, 502
+  size: 17, 19
+  orig: 17, 19
+  offset: 0, 0
+  index: -1
+mouth-normal
+  rotate: true
+  xy: 1141, 267
+  size: 33, 23
+  orig: 33, 23
+  offset: 0, 0
+  index: -1
+role1_pi
+  rotate: true
+  xy: 1165, 24
+  size: 158, 121
+  orig: 158, 121
+  offset: 0, 0
+  index: -1
+role2_xian
+  rotate: true
+  xy: 1038, 376
+  size: 145, 123
+  orig: 145, 123
+  offset: 0, 0
+  index: -1
+role3_bing
+  rotate: true
+  xy: 1288, 39
+  size: 143, 136
+  orig: 144, 136
+  offset: 1, 0
+  index: -1
+role4_naiyou
+  rotate: false
+  xy: 1166, 184
+  size: 159, 116
+  orig: 159, 116
+  offset: 0, 0
+  index: -1
+saihong
+  rotate: true
+  xy: 1409, 336
+  size: 132, 14
+  orig: 132, 14
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 1077, 263
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+wen
+  rotate: false
+  xy: 1038, 260
+  size: 37, 40
+  orig: 37, 40
+  offset: 0, 0
+  index: -1

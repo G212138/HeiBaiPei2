@@ -1,0 +1,62 @@
+
+xiaoyanhua.png
+size: 128,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+kuosan_1
+  rotate: false
+  xy: 87, 2
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+kuosan_2
+  rotate: false
+  xy: 57, 7
+  size: 13, 7
+  orig: 13, 7
+  offset: 0, 0
+  index: -1
+kuosan_3
+  rotate: false
+  xy: 2, 2
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+kuosan_4
+  rotate: false
+  xy: 44, 3
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+kuosan_5
+  rotate: false
+  xy: 96, 2
+  size: 7, 12
+  orig: 7, 12
+  offset: 0, 0
+  index: -1
+kuosan_6
+  rotate: false
+  xy: 16, 2
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+kuosan_7
+  rotate: false
+  xy: 30, 3
+  size: 12, 11
+  orig: 12, 11
+  offset: 0, 0
+  index: -1
+kuosan_8
+  rotate: false
+  xy: 72, 8
+  size: 13, 6
+  orig: 13, 6
+  offset: 0, 0
+  index: -1

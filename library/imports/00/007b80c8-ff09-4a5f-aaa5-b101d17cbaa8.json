@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_5_5biaoge",
+    "texture": "dced89a5-1ab9-4e65-803c-a053a7009939",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1372,
+      1371
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1372,
+      1371
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

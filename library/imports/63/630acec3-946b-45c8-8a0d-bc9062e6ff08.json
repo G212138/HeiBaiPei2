@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_hei",
+    "texture": "5a46104e-d900-414f-b64c-6c89e8f300b2",
+    "atlas": "",
+    "rect": [
+      10,
+      1,
+      146,
+      123
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      166,
+      124
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

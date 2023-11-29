@@ -1,0 +1,1006 @@
+{
+  "projectPath": "E:\\fork2\\FenShuiQiaoYin",
+  "actualPlatform": "web-mobile",
+  "mtimes": {
+    "ba3fb529-c46e-4cf9-8e22-36b16d3696f3": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009767
+    },
+    "14c0c655-6f66-477e-8e4c-551ecb86055d": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010187
+    },
+    "9cebdd5d-4b59-4a9b-9baf-aeb8ade5baf9": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010187
+    },
+    "1a91941d-a152-42eb-ad49-7d64a458681f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010262
+    },
+    "a0e2b9a4-7853-411c-ba79-21813a34d796": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010262
+    },
+    "1d36a5d8-615f-486d-afae-e09c67fe5c67": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010317
+    },
+    "7f20b771-3a29-4a0f-b9f7-427f000caf62": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010317
+    },
+    "29cde8fb-dd9f-4981-8ebc-2ebec4fb65b3": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009794
+    },
+    "ebe5bccb-4828-44af-94b9-94ac52a7c38f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009794
+    },
+    "32a3fa14-0295-44b1-b332-7102753f881f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009953
+    },
+    "b2d06711-a5b9-412f-8e35-71136d64032d": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009953
+    },
+    "34b93be1-4e4a-4a5f-9408-9a357ef4f1e1": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "061509a1-2dc5-4228-8c5e-edce1cb2e983": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010134
+    },
+    "4a6b5a97-5fbf-4aee-910e-4be7cb8e1537": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "52cfdf3e-c02d-4f80-87ea-0ed9caa8b128": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010228
+    },
+    "1e57d324-2c2f-43f8-9f11-366ea4f3eb0d": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010228
+    },
+    "5e84c87d-e4b3-4575-bbe0-07eab7e24cae": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "63bf5f81-9621-41ce-937d-d3735604ba5b": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010266
+    },
+    "a77f133e-f8e1-4912-9bbd-8c894680d854": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010266
+    },
+    "66204e73-249a-4e98-9e62-c077b68a635f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010023
+    },
+    "d18b8639-bcea-466b-b17c-d05fa100d0d6": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010023
+    },
+    "6925db0b-cac7-40e1-8671-31e2db3a1573": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009792
+    },
+    "2368900f-2b7d-4ec8-aef5-f69341bfd7a0": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009792
+    },
+    "6a6e95c0-7133-4380-a03e-6166212c59dd": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "6a8140a6-d39f-4d33-a271-e2f507e1f2d2": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "71944752-4d20-4e2b-b71d-45f874e6c6d7": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010044
+    },
+    "933c10ba-5b0b-4bb7-a294-741a18b8641f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010044
+    },
+    "75e5f92b-3e6d-4679-a960-5efdb6283d33": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010147
+    },
+    "6ef9b72e-b2d2-40c1-8916-c5fdab3947e7": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010147
+    },
+    "88195c92-81bd-4c03-824f-0e9e74ba9274": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010081
+    },
+    "5852a8a1-aa77-4992-a89f-541aaf4e9d91": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010081
+    },
+    "897bffd5-6e97-464b-a76a-0da4452de091": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "8e9f6a4e-825d-48e7-bbf4-c1e5e1d4528f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009937
+    },
+    "4a93a0f9-3419-472d-8bb3-bfb02de897b1": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912009937
+    },
+    "8f17955f-01aa-44c2-a31e-512195f628ff": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "9417cedc-60e5-4ef3-bee4-0aadd76c9a6e": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "95effcb9-ebe1-4e0d-8ad6-df489619615c": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010183
+    },
+    "16e13dbc-a7d7-4e40-a261-9b26e5fdef96": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010183
+    },
+    "9be27a7b-b122-4c1c-b381-66ce18a3b703": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010066
+    },
+    "36c838ef-4e0c-40fc-af9c-52dc58acb82a": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010066
+    },
+    "9f2b94fc-fe6f-423d-8ca7-fcf9bcb600bd": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010225
+    },
+    "a6eb3c5e-a59e-45bd-9754-46a3c225bde3": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010225
+    },
+    "a204e591-c845-4585-8c21-d904b6e70b39": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "a5a74f12-e6b5-461a-b1e0-a6bab5c2d9d2": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010047
+    },
+    "fe1487b6-21ee-49b2-be64-8086cb7203c7": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010047
+    },
+    "b99e3d8a-208f-46e7-8241-9ae910ed0cb9": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "c634335a-147d-4877-8513-cf8c220bd669": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010010
+    },
+    "cccf021c-f130-48fd-926b-75e8461060e5": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010010
+    },
+    "d8f7ae1c-a6a0-48a3-82f7-78535c066e8f": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    },
+    "d9af154b-cb4c-419e-abb0-05382c16fca8": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912010134
+    },
+    "eb383f3c-c5b8-4bb2-9627-2ae78c95c613": {
+      "assetMtime": 1698318601000,
+      "metaMtime": 1698912012805
+    }
+  },
+  "result": {
+    "name": "AutoAtlas-3",
+    "width": 256,
+    "height": 2048,
+    "ver": "1.2.1",
+    "uuid": "ba3fb529-c46e-4cf9-8e22-36b16d3696f3",
+    "maxWidth": 2048,
+    "maxHeight": 2048,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": true,
+    "paddingBleed": true,
+    "filterUnused": true,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 1,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "2",
+            "uuid": "14c0c655-6f66-477e-8e4c-551ecb86055d",
+            "textureUuid": "9cebdd5d-4b59-4a9b-9baf-aeb8ade5baf9",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401945_image_0.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 1068,
+              "rotatedHeight": 918
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/9c/9cebdd5d-4b59-4a9b-9baf-aeb8ade5baf9.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 1074,
+            "rotatedHeight": 924
+          },
+          {
+            "name": "2",
+            "uuid": "1a91941d-a152-42eb-ad49-7d64a458681f",
+            "textureUuid": "a0e2b9a4-7853-411c-ba79-21813a34d796",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401945_image_1.png",
+            "trim": {
+              "x": 1077,
+              "y": 3,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 918,
+              "rotatedHeight": 1068
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/a0/a0e2b9a4-7853-411c-ba79-21813a34d796.png",
+            "x": 1074,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 924,
+            "rotatedHeight": 1074
+          },
+          {
+            "name": "3",
+            "uuid": "1d36a5d8-615f-486d-afae-e09c67fe5c67",
+            "textureUuid": "7f20b771-3a29-4a0f-b9f7-427f000caf62",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401945_image_2.png",
+            "trim": {
+              "x": 3,
+              "y": 927,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 918,
+              "rotatedHeight": 1068
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/7f/7f20b771-3a29-4a0f-b9f7-427f000caf62.png",
+            "x": 0,
+            "y": 924,
+            "rotated": true,
+            "rotatedWidth": 924,
+            "rotatedHeight": 1074
+          },
+          {
+            "name": "3",
+            "uuid": "52cfdf3e-c02d-4f80-87ea-0ed9caa8b128",
+            "textureUuid": "1e57d324-2c2f-43f8-9f11-366ea4f3eb0d",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401946_image_7.png",
+            "trim": {
+              "x": 927,
+              "y": 1077,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 1068,
+              "rotatedHeight": 918
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/1e/1e57d324-2c2f-43f8-9f11-366ea4f3eb0d.png",
+            "x": 924,
+            "y": 1074,
+            "rotatedWidth": 1074,
+            "rotatedHeight": 924
+          },
+          {
+            "name": "icon_forbid",
+            "uuid": "c634335a-147d-4877-8513-cf8c220bd669",
+            "textureUuid": "cccf021c-f130-48fd-926b-75e8461060e5",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401954_image_27.png",
+            "trim": {
+              "x": 927,
+              "y": 927,
+              "width": 127,
+              "height": 127,
+              "rotatedWidth": 127,
+              "rotatedHeight": 127
+            },
+            "rawWidth": 127,
+            "rawHeight": 127,
+            "width": 133,
+            "height": 133,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/cc/cccf021c-f130-48fd-926b-75e8461060e5.png",
+            "x": 924,
+            "y": 924,
+            "rotatedWidth": 133,
+            "rotatedHeight": 133
+          },
+          {
+            "name": "dig-1",
+            "uuid": "29cde8fb-dd9f-4981-8ebc-2ebec4fb65b3",
+            "textureUuid": "ebe5bccb-4828-44af-94b9-94ac52a7c38f",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401945_image_3.png",
+            "trim": {
+              "x": 2001,
+              "y": 3,
+              "width": 19,
+              "height": 21,
+              "rotatedWidth": 19,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 19,
+            "rawHeight": 21,
+            "width": 25,
+            "height": 27,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/eb/ebe5bccb-4828-44af-94b9-94ac52a7c38f.png",
+            "x": 1998,
+            "y": 0,
+            "rotatedWidth": 25,
+            "rotatedHeight": 27
+          },
+          {
+            "name": "dig",
+            "uuid": "6925db0b-cac7-40e1-8671-31e2db3a1573",
+            "textureUuid": "2368900f-2b7d-4ec8-aef5-f69341bfd7a0",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401947_image_11.png",
+            "trim": {
+              "x": 2001,
+              "y": 30,
+              "width": 19,
+              "height": 21,
+              "rotatedWidth": 19,
+              "rotatedHeight": 21
+            },
+            "rawWidth": 19,
+            "rawHeight": 21,
+            "width": 25,
+            "height": 27,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/23/2368900f-2b7d-4ec8-aef5-f69341bfd7a0.png",
+            "x": 1998,
+            "y": 27,
+            "rotatedWidth": 25,
+            "rotatedHeight": 27
+          }
+        ],
+        "width": 2048,
+        "height": 2048,
+        "name": "AutoAtlas-1",
+        "imagePath": "E:\\fork2\\FenShuiQiaoYin\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "E:\\fork2\\FenShuiQiaoYin\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "1",
+            "uuid": "63bf5f81-9621-41ce-937d-d3735604ba5b",
+            "textureUuid": "a77f133e-f8e1-4912-9bbd-8c894680d854",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401947_image_9.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 1068,
+              "rotatedHeight": 918
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/a7/a77f133e-f8e1-4912-9bbd-8c894680d854.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 1074,
+            "rotatedHeight": 924
+          },
+          {
+            "name": "0",
+            "uuid": "75e5f92b-3e6d-4679-a960-5efdb6283d33",
+            "textureUuid": "6ef9b72e-b2d2-40c1-8916-c5fdab3947e7",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401948_image_15.png",
+            "trim": {
+              "x": 1077,
+              "y": 3,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 918,
+              "rotatedHeight": 1068
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/6e/6ef9b72e-b2d2-40c1-8916-c5fdab3947e7.png",
+            "x": 1074,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 924,
+            "rotatedHeight": 1074
+          },
+          {
+            "name": "1",
+            "uuid": "95effcb9-ebe1-4e0d-8ad6-df489619615c",
+            "textureUuid": "16e13dbc-a7d7-4e40-a261-9b26e5fdef96",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401950_image_21.png",
+            "trim": {
+              "x": 3,
+              "y": 927,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 918,
+              "rotatedHeight": 1068
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/16/16e13dbc-a7d7-4e40-a261-9b26e5fdef96.png",
+            "x": 0,
+            "y": 924,
+            "rotated": true,
+            "rotatedWidth": 924,
+            "rotatedHeight": 1074
+          },
+          {
+            "name": "0",
+            "uuid": "9f2b94fc-fe6f-423d-8ca7-fcf9bcb600bd",
+            "textureUuid": "a6eb3c5e-a59e-45bd-9754-46a3c225bde3",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401952_image_23.png",
+            "trim": {
+              "x": 927,
+              "y": 1077,
+              "width": 1068,
+              "height": 918,
+              "rotatedWidth": 1068,
+              "rotatedHeight": 918
+            },
+            "rawWidth": 1068,
+            "rawHeight": 918,
+            "width": 1074,
+            "height": 924,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/a6/a6eb3c5e-a59e-45bd-9754-46a3c225bde3.png",
+            "x": 924,
+            "y": 1074,
+            "rotatedWidth": 1074,
+            "rotatedHeight": 924
+          },
+          {
+            "name": "img_exit",
+            "uuid": "88195c92-81bd-4c03-824f-0e9e74ba9274",
+            "textureUuid": "5852a8a1-aa77-4992-a89f-541aaf4e9d91",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401948_image_16.png",
+            "trim": {
+              "x": 927,
+              "y": 927,
+              "width": 91,
+              "height": 111,
+              "rotatedWidth": 91,
+              "rotatedHeight": 111
+            },
+            "rawWidth": 91,
+            "rawHeight": 111,
+            "width": 97,
+            "height": 117,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/58/5852a8a1-aa77-4992-a89f-541aaf4e9d91.png",
+            "x": 924,
+            "y": 924,
+            "rotatedWidth": 97,
+            "rotatedHeight": 117
+          }
+        ],
+        "width": 2048,
+        "height": 2048,
+        "name": "AutoAtlas-2",
+        "imagePath": "E:\\fork2\\FenShuiQiaoYin\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "E:\\fork2\\FenShuiQiaoYin\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-2"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "word",
+            "uuid": "d9af154b-cb4c-419e-abb0-05382c16fca8",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401955_image_29.png",
+            "trim": {
+              "x": 3,
+              "y": 3,
+              "width": 246,
+              "height": 269,
+              "rotatedWidth": 246,
+              "rotatedHeight": 269
+            },
+            "rawWidth": 256,
+            "rawHeight": 512,
+            "width": 252,
+            "height": 275,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 252,
+            "rotatedHeight": 275
+          },
+          {
+            "name": "u",
+            "uuid": "71944752-4d20-4e2b-b71d-45f874e6c6d7",
+            "textureUuid": "933c10ba-5b0b-4bb7-a294-741a18b8641f",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401947_image_14.png",
+            "trim": {
+              "x": 3,
+              "y": 278,
+              "width": 220,
+              "height": 198,
+              "rotatedWidth": 220,
+              "rotatedHeight": 198
+            },
+            "rawWidth": 220,
+            "rawHeight": 198,
+            "width": 226,
+            "height": 204,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/93/933c10ba-5b0b-4bb7-a294-741a18b8641f.png",
+            "x": 0,
+            "y": 275,
+            "rotatedWidth": 226,
+            "rotatedHeight": 204
+          },
+          {
+            "name": "u2",
+            "uuid": "a5a74f12-e6b5-461a-b1e0-a6bab5c2d9d2",
+            "textureUuid": "fe1487b6-21ee-49b2-be64-8086cb7203c7",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401954_image_25.png",
+            "trim": {
+              "x": 3,
+              "y": 482,
+              "width": 458,
+              "height": 203,
+              "rotatedWidth": 203,
+              "rotatedHeight": 458
+            },
+            "rawWidth": 458,
+            "rawHeight": 203,
+            "width": 464,
+            "height": 209,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/fe/fe1487b6-21ee-49b2-be64-8086cb7203c7.png",
+            "x": 0,
+            "y": 479,
+            "rotated": true,
+            "rotatedWidth": 209,
+            "rotatedHeight": 464
+          },
+          {
+            "name": "btn_playAgain_normalbg",
+            "uuid": "32a3fa14-0295-44b1-b332-7102753f881f",
+            "textureUuid": "b2d06711-a5b9-412f-8e35-71136d64032d",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401945_image_4.png",
+            "trim": {
+              "x": 3,
+              "y": 946,
+              "width": 400,
+              "height": 180,
+              "rotatedWidth": 180,
+              "rotatedHeight": 400
+            },
+            "rawWidth": 400,
+            "rawHeight": 180,
+            "width": 406,
+            "height": 186,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/b2/b2d06711-a5b9-412f-8e35-71136d64032d.png",
+            "x": 0,
+            "y": 943,
+            "rotated": true,
+            "rotatedWidth": 186,
+            "rotatedHeight": 406
+          },
+          {
+            "name": "img_gong",
+            "uuid": "5e84c87d-e4b3-4575-bbe0-07eab7e24cae",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401946_image_8.png",
+            "trim": {
+              "x": 189,
+              "y": 946,
+              "width": 64,
+              "height": 79,
+              "rotatedWidth": 64,
+              "rotatedHeight": 79
+            },
+            "rawWidth": 64,
+            "rawHeight": 79,
+            "width": 70,
+            "height": 85,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 186,
+            "y": 943,
+            "rotatedWidth": 70,
+            "rotatedHeight": 85
+          },
+          {
+            "name": "img_shu",
+            "uuid": "34b93be1-4e4a-4a5f-9408-9a357ef4f1e1",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401946_image_5.png",
+            "trim": {
+              "x": 189,
+              "y": 1031,
+              "width": 64,
+              "height": 78,
+              "rotatedWidth": 64,
+              "rotatedHeight": 78
+            },
+            "rawWidth": 64,
+            "rawHeight": 78,
+            "width": 70,
+            "height": 84,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 186,
+            "y": 1028,
+            "rotatedWidth": 70,
+            "rotatedHeight": 84
+          },
+          {
+            "name": "img_chuang",
+            "uuid": "8f17955f-01aa-44c2-a31e-512195f628ff",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401949_image_19.png",
+            "trim": {
+              "x": 189,
+              "y": 1115,
+              "width": 63,
+              "height": 78,
+              "rotatedWidth": 63,
+              "rotatedHeight": 78
+            },
+            "rawWidth": 63,
+            "rawHeight": 78,
+            "width": 69,
+            "height": 84,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 186,
+            "y": 1112,
+            "rotatedWidth": 69,
+            "rotatedHeight": 84
+          },
+          {
+            "name": "img_bi",
+            "uuid": "9417cedc-60e5-4ef3-bee4-0aadd76c9a6e",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401949_image_20.png",
+            "trim": {
+              "x": 189,
+              "y": 1199,
+              "width": 63,
+              "height": 78,
+              "rotatedWidth": 63,
+              "rotatedHeight": 78
+            },
+            "rawWidth": 63,
+            "rawHeight": 78,
+            "width": 69,
+            "height": 84,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 186,
+            "y": 1196,
+            "rotatedWidth": 69,
+            "rotatedHeight": 84
+          },
+          {
+            "name": "img_cheng",
+            "uuid": "897bffd5-6e97-464b-a76a-0da4452de091",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401948_image_17.png",
+            "trim": {
+              "x": 189,
+              "y": 1283,
+              "width": 61,
+              "height": 80,
+              "rotatedWidth": 61,
+              "rotatedHeight": 80
+            },
+            "rawWidth": 61,
+            "rawHeight": 80,
+            "width": 67,
+            "height": 86,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 186,
+            "y": 1280,
+            "rotatedWidth": 67,
+            "rotatedHeight": 86
+          },
+          {
+            "name": "btn_playAgain_normal",
+            "uuid": "8e9f6a4e-825d-48e7-bbf4-c1e5e1d4528f",
+            "textureUuid": "4a93a0f9-3419-472d-8bb3-bfb02de897b1",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401948_image_18.png",
+            "trim": {
+              "x": 3,
+              "y": 1352,
+              "width": 380,
+              "height": 160,
+              "rotatedWidth": 160,
+              "rotatedHeight": 380
+            },
+            "rawWidth": 380,
+            "rawHeight": 160,
+            "width": 386,
+            "height": 166,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/4a/4a93a0f9-3419-472d-8bb3-bfb02de897b1.png",
+            "x": 0,
+            "y": 1349,
+            "rotated": true,
+            "rotatedWidth": 166,
+            "rotatedHeight": 386
+          },
+          {
+            "name": "img_sai",
+            "uuid": "eb383f3c-c5b8-4bb2-9627-2ae78c95c613",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401957_image_30.png",
+            "trim": {
+              "x": 169,
+              "y": 1369,
+              "width": 66,
+              "height": 81,
+              "rotatedWidth": 81,
+              "rotatedHeight": 66
+            },
+            "rawWidth": 66,
+            "rawHeight": 81,
+            "width": 72,
+            "height": 87,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 166,
+            "y": 1366,
+            "rotated": true,
+            "rotatedWidth": 87,
+            "rotatedHeight": 72
+          },
+          {
+            "name": "img_guan",
+            "uuid": "6a8140a6-d39f-4d33-a271-e2f507e1f2d2",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401947_image_13.png",
+            "trim": {
+              "x": 169,
+              "y": 1441,
+              "width": 65,
+              "height": 81,
+              "rotatedWidth": 81,
+              "rotatedHeight": 65
+            },
+            "rawWidth": 65,
+            "rawHeight": 81,
+            "width": 71,
+            "height": 87,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 166,
+            "y": 1438,
+            "rotated": true,
+            "rotatedWidth": 87,
+            "rotatedHeight": 71
+          },
+          {
+            "name": "img_zhan",
+            "uuid": "d8f7ae1c-a6a0-48a3-82f7-78535c066e8f",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401954_image_28.png",
+            "trim": {
+              "x": 169,
+              "y": 1512,
+              "width": 67,
+              "height": 80,
+              "rotatedWidth": 80,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 80,
+            "width": 73,
+            "height": 86,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 166,
+            "y": 1509,
+            "rotated": true,
+            "rotatedWidth": 86,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "img_zuo",
+            "uuid": "6a6e95c0-7133-4380-a03e-6166212c59dd",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401947_image_12.png",
+            "trim": {
+              "x": 169,
+              "y": 1585,
+              "width": 67,
+              "height": 79,
+              "rotatedWidth": 79,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 79,
+            "width": 73,
+            "height": 85,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 166,
+            "y": 1582,
+            "rotated": true,
+            "rotatedWidth": 85,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "img_jie",
+            "uuid": "b99e3d8a-208f-46e7-8241-9ae910ed0cb9",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401954_image_26.png",
+            "trim": {
+              "x": 169,
+              "y": 1658,
+              "width": 68,
+              "height": 78,
+              "rotatedWidth": 78,
+              "rotatedHeight": 68
+            },
+            "rawWidth": 68,
+            "rawHeight": 78,
+            "width": 74,
+            "height": 84,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 166,
+            "y": 1655,
+            "rotated": true,
+            "rotatedWidth": 84,
+            "rotatedHeight": 74
+          },
+          {
+            "name": "img_da",
+            "uuid": "4a6b5a97-5fbf-4aee-910e-4be7cb8e1537",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401946_image_6.png",
+            "trim": {
+              "x": 169,
+              "y": 1732,
+              "width": 67,
+              "height": 78,
+              "rotatedWidth": 78,
+              "rotatedHeight": 67
+            },
+            "rawWidth": 67,
+            "rawHeight": 78,
+            "width": 73,
+            "height": 84,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 166,
+            "y": 1729,
+            "rotated": true,
+            "rotatedWidth": 84,
+            "rotatedHeight": 73
+          },
+          {
+            "name": "img_tiao",
+            "uuid": "a204e591-c845-4585-8c21-d904b6e70b39",
+            "textureUuid": "061509a1-2dc5-4228-8c5e-edce1cb2e983",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401952_image_24.png",
+            "trim": {
+              "x": 3,
+              "y": 1738,
+              "width": 68,
+              "height": 77,
+              "rotatedWidth": 68,
+              "rotatedHeight": 77
+            },
+            "rawWidth": 68,
+            "rawHeight": 77,
+            "width": 74,
+            "height": 83,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/06/061509a1-2dc5-4228-8c5e-edce1cb2e983.png",
+            "x": 0,
+            "y": 1735,
+            "rotatedWidth": 74,
+            "rotatedHeight": 83
+          },
+          {
+            "name": "toast",
+            "uuid": "66204e73-249a-4e98-9e62-c077b68a635f",
+            "textureUuid": "d18b8639-bcea-466b-b17c-d05fa100d0d6",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401947_image_10.png",
+            "trim": {
+              "x": 77,
+              "y": 1738,
+              "width": 50,
+              "height": 50,
+              "rotatedWidth": 50,
+              "rotatedHeight": 50
+            },
+            "rawWidth": 50,
+            "rawHeight": 50,
+            "width": 56,
+            "height": 56,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/d1/d18b8639-bcea-466b-b17c-d05fa100d0d6.png",
+            "x": 74,
+            "y": 1735,
+            "rotatedWidth": 56,
+            "rotatedHeight": 56
+          },
+          {
+            "name": "yuanJiao",
+            "uuid": "9be27a7b-b122-4c1c-b381-66ce18a3b703",
+            "textureUuid": "36c838ef-4e0c-40fc-af9c-52dc58acb82a",
+            "path": "E:\\fork2\\FenShuiQiaoYin\\temp\\trimImages\\spritesheet_js_1700798401951_image_22.png",
+            "trim": {
+              "x": 77,
+              "y": 1794,
+              "width": 50,
+              "height": 50,
+              "rotatedWidth": 50,
+              "rotatedHeight": 50
+            },
+            "rawWidth": 50,
+            "rawHeight": 50,
+            "width": 56,
+            "height": 56,
+            "originalPath": "E:/fork2/FenShuiQiaoYin/library/imports/36/36c838ef-4e0c-40fc-af9c-52dc58acb82a.png",
+            "x": 74,
+            "y": 1791,
+            "rotatedWidth": 56,
+            "rotatedHeight": 56
+          }
+        ],
+        "width": 256,
+        "height": 2048,
+        "name": "AutoAtlas-3",
+        "imagePath": "E:\\fork2\\FenShuiQiaoYin\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\AutoAtlas-3.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "E:\\fork2\\FenShuiQiaoYin\\temp\\TexturePacker\\build\\native\\assets\\frame\\frameRes\\images\\AutoAtlas.pac\\compressed\\AutoAtlas-3"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

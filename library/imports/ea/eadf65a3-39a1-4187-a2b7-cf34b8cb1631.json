@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_binggan",
+    "texture": "afc4dffd-808f-4770-b680-dc5825f5ec94",
+    "atlas": "",
+    "rect": [
+      14,
+      15,
+      144,
+      137
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      172,
+      166
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

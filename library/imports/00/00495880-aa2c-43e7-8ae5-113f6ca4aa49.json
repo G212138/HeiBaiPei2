@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_naiyou",
+    "texture": "264afd85-af9c-45e5-983c-11acac20f2ff",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      160,
+      117
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      161,
+      118
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

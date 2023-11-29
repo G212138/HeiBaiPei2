@@ -1,0 +1,156 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "laba",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "JaznAuEilldZZFmsDopg6jSzXqQ",
+      "spine": "3.7.94",
+      "width": 112,
+      "height": 112
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "board",
+        "bone": "bone",
+        "attachment": "board"
+      },
+      {
+        "name": "1",
+        "bone": "bone",
+        "attachment": "1"
+      },
+      {
+        "name": "2",
+        "bone": "bone",
+        "attachment": "2"
+      },
+      {
+        "name": "3",
+        "bone": "bone",
+        "attachment": "3"
+      }
+    ],
+    "skins": {
+      "default": {
+        "1": {
+          "1": {
+            "x": -17,
+            "y": -3.5,
+            "width": 48,
+            "height": 81
+          }
+        },
+        "2": {
+          "2": {
+            "x": 16.5,
+            "y": -1,
+            "width": 25,
+            "height": 46
+          }
+        },
+        "3": {
+          "3": {
+            "x": 21.5,
+            "y": -2.5,
+            "width": 37,
+            "height": 71
+          }
+        },
+        "board": {
+          "board": {
+            "width": 112,
+            "height": 112
+          }
+        }
+      }
+    },
+    "animations": {
+      "idle": {
+        "slots": {
+          "2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nlaba.png\nsize: 214,116\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1\n  rotate: false\n  xy: 116, 33\n  size: 48, 81\n  orig: 48, 81\n  offset: 0, 0\n  index: -1\n2\n  rotate: true\n  xy: 166, 16\n  size: 25, 46\n  orig: 25, 46\n  offset: 0, 0\n  index: -1\n3\n  rotate: false\n  xy: 166, 43\n  size: 37, 71\n  orig: 37, 71\n  offset: 0, 0\n  index: -1\nboard\n  rotate: false\n  xy: 2, 2\n  size: 112, 112\n  orig: 112, 112\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "2a3757dd-2e10-46f2-bf57-154abf65c3f6"
+    }
+  ],
+  "textureNames": [
+    "laba.png"
+  ],
+  "scale": 1
+}

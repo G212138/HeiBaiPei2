@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "perfect_jingwei",
+    "texture": "e69ecd3f-70fa-4bce-b834-0bc1446c5eca",
+    "atlas": "",
+    "rect": [
+      2,
+      8,
+      1837,
+      1143
+    ],
+    "offset": [
+      0,
+      -3.5
+    ],
+    "originalSize": [
+      1841,
+      1152
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

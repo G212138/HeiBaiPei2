@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "huangseyanhua",
+    "texture": "1905a656-d46b-4188-8e66-355baabf3ec2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      1024
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      1024
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

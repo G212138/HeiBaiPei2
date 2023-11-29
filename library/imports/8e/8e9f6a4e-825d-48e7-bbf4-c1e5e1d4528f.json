@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_playAgain_normal",
+    "texture": "4a93a0f9-3419-472d-8bb3-bfb02de897b1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      380,
+      160
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      380,
+      160
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

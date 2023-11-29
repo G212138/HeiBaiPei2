@@ -1,0 +1,7 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "README",
+  "_objFlags": 0,
+  "_native": "",
+  "text": "# components\n\n组件库\n"
+}
