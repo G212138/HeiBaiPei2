@@ -1,10 +1,6 @@
 import { ListenerManager } from "../../../../frame/scripts/Manager/ListenerManager";
-import { SoundManager } from "../../../../frame/scripts/Manager/SoundManager";
-import { SyncDataManager } from "../../../../frame/scripts/Manager/SyncDataManager";
-import { Tools } from "../../../../frame/scripts/Utils/Tools";
-import { UIHelp } from "../../../../frame/scripts/Utils/UIHelp";
 import { EventType } from "../../Data/EventType";
-import { SoundConfig } from "./SoundConfig";
+import { EditorManager } from "../../Manager/EditorManager";
 
 const { ccclass, property } = cc._decorator;
 
@@ -25,6 +21,7 @@ export default class GameUI extends cc.Component {
     }
 
     private handleEnterGame() {
+        console.log("handleEnterGame EditorManager.editorData.answerArr", EditorManager.editorData.answerArr);
         this.initUI();
     }
 

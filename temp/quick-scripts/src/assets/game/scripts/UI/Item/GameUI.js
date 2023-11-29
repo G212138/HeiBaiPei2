@@ -25,6 +25,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var ListenerManager_1 = require("../../../../frame/scripts/Manager/ListenerManager");
 var EventType_1 = require("../../Data/EventType");
+var EditorManager_1 = require("../../Manager/EditorManager");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var GameUI = /** @class */ (function (_super) {
     __extends(GameUI, _super);
@@ -42,6 +43,7 @@ var GameUI = /** @class */ (function (_super) {
         ListenerManager_1.ListenerManager.off(EventType_1.EventType.GAME_REPLAY, this.handleEnterGame, this);
     };
     GameUI.prototype.handleEnterGame = function () {
+        console.log("handleEnterGame EditorManager.editorData.answerArr", EditorManager_1.EditorManager.editorData.answerArr);
         this.initUI();
     };
     GameUI.prototype.initUI = function () {

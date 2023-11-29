@@ -30,6 +30,7 @@ var EditorData = /** @class */ (function () {
         this.geziSize = 0;
         this.tigan = '';
         this.iconType = 0;
+        //二维数组
         this.geziIconArr = [];
         this.answerArr = [];
     }

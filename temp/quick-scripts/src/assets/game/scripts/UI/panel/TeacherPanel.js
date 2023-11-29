@@ -29,7 +29,10 @@ var ReportManager_1 = require("../../../../frame/scripts/Manager/ReportManager")
 var UIManager_1 = require("../../../../frame/scripts/Manager/UIManager");
 var BaseTeacherPanel_1 = require("../../../../frame/scripts/UI/Panel/BaseTeacherPanel");
 var UIHelp_1 = require("../../../../frame/scripts/Utils/UIHelp");
+var EventType_1 = require("../../Data/EventType");
 var EditorManager_1 = require("../../Manager/EditorManager");
+var GeziArea_1 = require("../Item/GeziArea");
+var IconDrag_1 = require("../Item/IconDrag");
 var GamePanel_1 = require("./GamePanel");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var TeacherPanel = /** @class */ (function (_super) {
@@ -42,12 +45,27 @@ var TeacherPanel = /** @class */ (function (_super) {
         _this.toggle_needEnd = null;
         _this.toggle_geziSize = null;
         _this.tigan_edit = null;
+        _this.gezi_1 = null;
+        _this.gezi_2 = null;
+        _this.gezi_prefab_1 = null;
+        _this.gezi_prefab_2 = null;
+        _this.mask_1 = null;
+        _this.mask_2 = null;
+        _this.mask_3 = null;
         _this._btn_save = null;
         _this._btn_view = null;
+        //已经点击的格子
+        _this.clickedGezi = null;
         return _this;
     }
     TeacherPanel.prototype.onLoad = function () {
         _super.prototype.onLoad.call(this);
+        ListenerManager_1.ListenerManager.on(EventType_1.EventType.DRAG_ICON_END, this.onDragMaoziEnd, this);
+        ListenerManager_1.ListenerManager.on(EventType_1.EventType.CLICK_ICON, this.onHandleClick, this);
+    };
+    TeacherPanel.prototype.onDestroy = function () {
+        ListenerManager_1.ListenerManager.off(EventType_1.EventType.DRAG_ICON_END, this.onDragMaoziEnd, this);
+        ListenerManager_1.ListenerManager.off(EventType_1.EventType.CLICK_ICON, this.onHandleClick, this);
     };
     TeacherPanel.prototype.start = function () {
         _super.prototype.start.call(this);
@@ -69,6 +87,7 @@ var TeacherPanel = /** @class */ (function (_super) {
         this.toggle_needEnd.toggleItems[EditorManager_1.EditorManager.editorData.needEnd ? 0 : 1].isChecked = true;
         this.toggle_geziSize.toggleItems[EditorManager_1.EditorManager.editorData.geziSize].isChecked = true;
         this.tigan_edit.string = EditorManager_1.EditorManager.editorData.tigan.toString();
+        this.initGeZi();
     };
     // 星级评判开关
     TeacherPanel.prototype.onToggleStar = function (toggle) {
@@ -94,6 +113,7 @@ var TeacherPanel = /** @class */ (function (_super) {
     TeacherPanel.prototype.onToggleGeziSize = function (toggle) {
         var index = this.toggle_geziSize.toggleItems.indexOf(toggle);
         EditorManager_1.EditorManager.editorData.geziSize = index;
+        this.initGeZi();
     };
     TeacherPanel.prototype.onHandleTiganChanged = function () {
         if (this.tigan_edit.string.length >= 30) {
@@ -103,6 +123,132 @@ var TeacherPanel = /** @class */ (function (_super) {
     };
     TeacherPanel.prototype.onHanleTiganEnd = function () {
         EditorManager_1.EditorManager.editorData.tigan = this.tigan_edit.string;
+    };
+    TeacherPanel.prototype.initGeZi = function () {
+        this.gezi_1.parent.active = EditorManager_1.EditorManager.editorData.geziSize === 0;
+        this.gezi_2.parent.active = EditorManager_1.EditorManager.editorData.geziSize === 1;
+        var geziNode = EditorManager_1.EditorManager.editorData.geziSize === 0 ? this.gezi_1 : this.gezi_2;
+        var geziPrefab = EditorManager_1.EditorManager.editorData.geziSize === 0 ? this.gezi_prefab_1 : this.gezi_prefab_2;
+        var gezirowCount = EditorManager_1.EditorManager.editorData.geziSize === 0 ? 5 : 6;
+        geziNode.removeAllChildren();
+        for (var i = 0; i < gezirowCount; i++) {
+            for (var j = 0; j < gezirowCount; j++) {
+                var gezi = cc.instantiate(geziPrefab);
+                gezi.getComponent(GeziArea_1.default).row = i;
+                gezi.getComponent(GeziArea_1.default).col = j;
+                gezi.parent = geziNode;
+            }
+        }
+        // 生成二维数组
+        EditorManager_1.EditorManager.editorData.geziIconArr = [];
+        for (var i = 0; i < gezirowCount; i++) {
+            var arr = [];
+            for (var j = 0; j < gezirowCount; j++) {
+                arr.push(0);
+            }
+            EditorManager_1.EditorManager.editorData.geziIconArr.push(arr);
+        }
+        this.onDragMaoziEnd();
+    };
+    TeacherPanel.prototype.onDragMaoziEnd = function () {
+        var geziNode = EditorManager_1.EditorManager.editorData.geziSize === 0 ? this.gezi_1 : this.gezi_2;
+        var iconType = null;
+        for (var i = 0; i < geziNode.childrenCount; i++) {
+            var gezi = geziNode.children[i];
+            if (gezi.getChildByName("icon_node").childrenCount > 0) {
+                iconType = gezi.getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).getIndex();
+                break;
+            }
+        }
+        if (iconType === null) {
+            this.mask_1.active = false;
+            this.mask_2.active = false;
+            this.mask_3.active = false;
+            return;
+        }
+        else {
+            this.mask_1.active = iconType != 1 && iconType != 2;
+            this.mask_2.active = iconType != 3 && iconType != 4;
+            this.mask_3.active = iconType != 5 && iconType != 6 && iconType != 7;
+        }
+        for (var i = 0; i < geziNode.childrenCount; i++) {
+            var gezi = geziNode.children[i];
+            if (gezi.getChildByName("icon_node").childrenCount > 0) {
+                iconType = gezi.getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).getIndex();
+                EditorManager_1.EditorManager.editorData.geziIconArr[gezi.getComponent(GeziArea_1.default).row][gezi.getComponent(GeziArea_1.default).col] = iconType;
+            }
+        }
+    };
+    TeacherPanel.prototype.onHandleClick = function (data) {
+        if (this.clickedGezi != null) {
+            if (this.clickedGezi.row == data.row && this.clickedGezi.col == data.col) {
+                this.clickedGezi = null;
+                return;
+            }
+            else {
+                this.setAnswer(data);
+            }
+        }
+        else {
+            this.clickedGezi = data;
+        }
+    };
+    TeacherPanel.prototype.setAnswer = function (data) {
+        var geziNode = EditorManager_1.EditorManager.editorData.geziSize === 0 ? this.gezi_1 : this.gezi_2;
+        var rowCount = EditorManager_1.EditorManager.editorData.geziSize === 0 ? 5 : 6;
+        //根据行列计算出索引
+        var startIndex = this.clickedGezi.row * rowCount + this.clickedGezi.col;
+        var endIndex = data.row * rowCount + data.col;
+        var answer = [startIndex, endIndex];
+        //不考虑顺序，如果已经存在，就删除
+        for (var i = 0; i < EditorManager_1.EditorManager.editorData.answerArr.length; i++) {
+            var arr = EditorManager_1.EditorManager.editorData.answerArr[i];
+            if (arr[0] == endIndex && arr[1] == startIndex) {
+                EditorManager_1.EditorManager.editorData.answerArr.splice(i, 1);
+                this.clickedGezi = null;
+                geziNode.children[startIndex].getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).showHighLight(false);
+                geziNode.children[endIndex].getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).showHighLight(false);
+                this.drawLine();
+                return;
+            }
+            else if (arr[0] == startIndex && arr[1] == endIndex) {
+                EditorManager_1.EditorManager.editorData.answerArr.splice(i, 1);
+                this.clickedGezi = null;
+                geziNode.children[startIndex].getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).showHighLight(false);
+                geziNode.children[endIndex].getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).showHighLight(false);
+                this.drawLine();
+                return;
+            }
+        }
+        EditorManager_1.EditorManager.editorData.answerArr.push(answer);
+        this.clickedGezi = null;
+        geziNode.children[startIndex].getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).showHighLight(false);
+        geziNode.children[endIndex].getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).showHighLight(false);
+        this.drawLine();
+    };
+    TeacherPanel.prototype.drawLine = function () {
+        var geziNode = EditorManager_1.EditorManager.editorData.geziSize === 0 ? this.gezi_1 : this.gezi_2;
+        var draw_node = geziNode.parent.getChildByName("draw_node");
+        draw_node.removeAllChildren();
+        for (var i = 0; i < EditorManager_1.EditorManager.editorData.answerArr.length; i++) {
+            var arr = EditorManager_1.EditorManager.editorData.answerArr[i];
+            var startIndex = arr[0];
+            var endIndex = arr[1];
+            var startPos = geziNode.children[startIndex].position;
+            var endPos = geziNode.children[endIndex].position;
+            var lineNode = new cc.Node();
+            lineNode.addComponent(cc.Graphics);
+            lineNode.parent = draw_node;
+            var graphics = lineNode.getComponent(cc.Graphics);
+            graphics.strokeColor = cc.Color.WHITE;
+            graphics.fillColor = cc.Color.WHITE;
+            graphics.lineWidth = 20;
+            graphics.lineJoin = cc.Graphics.LineJoin.ROUND;
+            graphics.lineCap = cc.Graphics.LineCap.ROUND;
+            graphics.moveTo(startPos.x, startPos.y);
+            graphics.lineTo(endPos.x, endPos.y);
+            graphics.stroke();
+        }
     };
     // 保存课件按钮
     TeacherPanel.prototype.onBtnSaveClicked = function () {
@@ -145,6 +291,27 @@ var TeacherPanel = /** @class */ (function (_super) {
     __decorate([
         property(cc.EditBox)
     ], TeacherPanel.prototype, "tigan_edit", void 0);
+    __decorate([
+        property(cc.Node)
+    ], TeacherPanel.prototype, "gezi_1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], TeacherPanel.prototype, "gezi_2", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], TeacherPanel.prototype, "gezi_prefab_1", void 0);
+    __decorate([
+        property(cc.Prefab)
+    ], TeacherPanel.prototype, "gezi_prefab_2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], TeacherPanel.prototype, "mask_1", void 0);
+    __decorate([
+        property(cc.Node)
+    ], TeacherPanel.prototype, "mask_2", void 0);
+    __decorate([
+        property(cc.Node)
+    ], TeacherPanel.prototype, "mask_3", void 0);
     TeacherPanel = __decorate([
         ccclass
     ], TeacherPanel);

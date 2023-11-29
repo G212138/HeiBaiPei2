@@ -23,7 +23,8 @@ class EditorData {
     public geziSize: number = 0;
     public tigan: string = '';
     public iconType: number = 0;
-    public geziIconArr: number[] = [];
+    //二维数组
+    public geziIconArr: number[][] = [];
     public answerArr: number[][] = [];
 }
 

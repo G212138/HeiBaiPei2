@@ -11,4 +11,8 @@ export enum EventType {
     GAME_OVER = "GAME_OVER",
     SUBMIT = "SUBMIT",
     GAME_REPLAY = "GAME_REPLAY",
+
+    DRAG_ICON = "DRAG_ICON",
+    DRAG_ICON_END = "DRAG_ICON_END",
+    CLICK_ICON = "CLICK_ICON",
 }

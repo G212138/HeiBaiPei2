@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_mianan",
+    "texture": "a49d2523-fcc3-43f7-ab79-7ad3bf82ef41",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      2048,
+      1152
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      2048,
+      1152
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

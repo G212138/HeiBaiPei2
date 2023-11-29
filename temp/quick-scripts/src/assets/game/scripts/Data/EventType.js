@@ -17,6 +17,9 @@ var EventType;
     EventType["GAME_OVER"] = "GAME_OVER";
     EventType["SUBMIT"] = "SUBMIT";
     EventType["GAME_REPLAY"] = "GAME_REPLAY";
+    EventType["DRAG_ICON"] = "DRAG_ICON";
+    EventType["DRAG_ICON_END"] = "DRAG_ICON_END";
+    EventType["CLICK_ICON"] = "CLICK_ICON";
 })(EventType = exports.EventType || (exports.EventType = {}));
 
 cc._RF.pop();
