@@ -20,6 +20,8 @@ var EventType;
     EventType["DRAG_ICON"] = "DRAG_ICON";
     EventType["DRAG_ICON_END"] = "DRAG_ICON_END";
     EventType["CLICK_ICON"] = "CLICK_ICON";
+    //game
+    EventType["CLICK_ROLE"] = "CLICK_ROLE";
 })(EventType = exports.EventType || (exports.EventType = {}));
 
 cc._RF.pop();

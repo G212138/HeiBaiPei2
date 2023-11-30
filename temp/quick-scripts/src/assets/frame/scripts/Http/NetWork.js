@@ -15,14 +15,14 @@ var NetWorkClass = /** @class */ (function () {
         this.isOnlineEnv = this.GetIsOnline() == 'online';
         //判断是否是pc预加载的协议    URL里不加参数则默认为非预加载
         this.isOwcr = this.GetBPreload();
-        // public readonly BASE = this.isOnlineEnv
-        //     ? 'https://courseware-online.speiyou.com'
-        //     : 'https://ceshi-courseware.speiyou.com';
-        this.BASE = this.isOnlineEnv ? 'https://courseware-online.saasp.vdyoo.com' : 'https://ceshi-courseware-online.saasp.vdyoo.com';
-        this.COS_URL = this.isOnlineEnv ?
-            'https://classroom-api-online.saasp.vdyoo.com/micro-class/storage/v1/tencent/sts'
-            : 'https://test-class-api-online.saasp.vdyoo.com/micro-class/storage/v1/tencent/sts';
-        this.COS_BASE_URL = this.isOnlineEnv ? 'https://micro-class.xuepeiyou.com/' : 'https://micro-class-test.xuepeiyou.com/';
+        this.BASE = this.isOnlineEnv
+            ? 'https://courseware-online.speiyou.com'
+            : 'https://ceshi-courseware.speiyou.com';
+        // public readonly BASE = this.isOnlineEnv ? 'https://courseware-online.saasp.vdyoo.com' : 'https://ceshi-courseware-online.saasp.vdyoo.com';
+        // public readonly COS_URL = this.isOnlineEnv ?
+        //     'https://classroom-api-online.saasp.vdyoo.com/micro-class/storage/v1/tencent/sts'
+        //     : 'https://test-class-api-online.saasp.vdyoo.com/micro-class/storage/v1/tencent/sts';
+        // public readonly COS_BASE_URL = this.isOnlineEnv ? 'https://micro-class.xuepeiyou.com/' : 'https://micro-class-test.xuepeiyou.com/';
         this.GET_QUESTION = this.BASE + '/get';
         this.GET_USER_PROGRESS = this.BASE + '/get/answer';
         this.GET_TITLE = this.BASE + '/get/title';

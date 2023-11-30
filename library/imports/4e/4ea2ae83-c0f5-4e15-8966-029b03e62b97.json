@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "1_caomeidangao",
+    "texture": "38da88ce-9d45-4d6f-b1ab-aeb6dcd18c98",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      87,
+      111
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      87,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

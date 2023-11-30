@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_quqi",
+    "texture": "a9aa0e0c-bdd8-4890-9645-6167adf6f4ff",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      114,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      114,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

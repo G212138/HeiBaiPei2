@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ip-jianjian",
+    "texture": "347e25f0-ed65-4a2e-a25b-f8b272331402",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      598,
+      564
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      598,
+      564
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -13,11 +13,8 @@ var CustomSyncData = /** @class */ (function () {
     function CustomSyncData() {
         this.curLevel = 0; // 当前关卡(第一关为0)
         // TODO 自定义
-        this.shiguan_1 = 1;
-        this.shiguan_2 = 1;
-        this.shiguan_3 = 6;
-        this.trueArr = [];
-        this.shotEnable = true;
+        this.selfAnswerArr = [];
+        this.curChooseRole = null;
     }
     return CustomSyncData;
 }());

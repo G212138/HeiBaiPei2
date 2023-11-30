@@ -1,208 +1,257 @@
 
 heibai.png
-size: 1428,523
+size: 952,952
 format: RGBA8888
 filter: Linear,Linear
 repeat: none
-eft_smoke1-1
+1_caomeidangao
   rotate: true
-  xy: 701, 254
+  xy: 505, 7
+  size: 87, 111
+  orig: 87, 111
+  offset: 0, 0
+  index: -1
+2_caomeidangao_
+  rotate: true
+  xy: 505, 96
+  size: 132, 130
+  orig: 132, 130
+  offset: 0, 0
+  index: -1
+eft_smoke1-1
+  rotate: false
+  xy: 2, 241
   size: 267, 232
   orig: 283, 232
   offset: 8, 0
   index: -1
 eft_smoke1-2
-  rotate: true
-  xy: 2, 238
+  rotate: false
+  xy: 2, 719
   size: 283, 231
   orig: 283, 232
   offset: 0, 1
   index: -1
 eft_smoke1-3
-  rotate: true
-  xy: 235, 251
+  rotate: false
+  xy: 287, 730
   size: 270, 220
   orig: 283, 232
   offset: 9, 12
   index: -1
 eft_smoke1-4
   rotate: true
-  xy: 709, 6
+  xy: 498, 482
   size: 246, 214
   orig: 283, 232
   offset: 19, 11
   index: -1
 eft_smoke1-5
   rotate: false
-  xy: 1165, 302
+  xy: 261, 9
   size: 242, 219
   orig: 283, 232
   offset: 25, 6
   index: -1
 eft_smoke1-6
-  rotate: true
-  xy: 488, 4
+  rotate: false
+  xy: 559, 731
   size: 248, 219
   orig: 283, 232
   offset: 20, 6
   index: -1
 eft_smoke2-1
-  rotate: true
-  xy: 925, 9
+  rotate: false
+  xy: 271, 230
   size: 243, 238
   orig: 311, 254
   offset: 41, 0
   index: -1
 eft_smoke2-2
   rotate: true
-  xy: 261, 2
+  xy: 271, 470
   size: 247, 225
   orig: 311, 254
   offset: 39, 20
   index: -1
 eft_smoke2-3
   rotate: false
-  xy: 2, 3
+  xy: 2, 6
   size: 257, 233
   orig: 311, 254
   offset: 35, 16
   index: -1
 eft_smoke2-4
-  rotate: true
-  xy: 457, 254
+  rotate: false
+  xy: 2, 475
   size: 267, 242
   orig: 311, 254
   offset: 30, 12
   index: -1
 eye-close
-  rotate: false
-  xy: 935, 453
+  rotate: true
+  xy: 671, 139
   size: 98, 22
   orig: 98, 22
   offset: 0, 0
   index: -1
 eye-cry
-  rotate: false
-  xy: 935, 342
+  rotate: true
+  xy: 637, 131
   size: 106, 32
   orig: 106, 32
   offset: 0, 0
   index: -1
 eye-happu
-  rotate: false
-  xy: 935, 432
+  rotate: true
+  xy: 815, 41
   size: 98, 19
   orig: 98, 19
   offset: 0, 0
   index: -1
 eye-jingya
   rotate: false
-  xy: 935, 256
+  xy: 809, 746
   size: 101, 44
   orig: 102, 44
   offset: 1, 0
   index: -1
 eye-yanbai
-  rotate: false
-  xy: 935, 477
+  rotate: true
+  xy: 875, 419
   size: 101, 44
   orig: 101, 44
   offset: 0, 0
   index: -1
 eye-yanzhu
-  rotate: false
-  xy: 935, 401
+  rotate: true
+  xy: 618, 6
   size: 88, 29
   orig: 88, 29
   offset: 0, 0
   index: -1
 eyeborwL
-  rotate: true
-  xy: 1409, 309
+  rotate: false
+  xy: 287, 720
   size: 25, 8
   orig: 25, 8
   offset: 0, 0
   index: -1
 eyeborwR
-  rotate: true
-  xy: 1409, 309
+  rotate: false
+  xy: 287, 720
   size: 25, 8
   orig: 25, 8
   offset: 0, 0
   index: -1
+img_caomei
+  rotate: false
+  xy: 856, 209
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+img_dangao
+  rotate: true
+  xy: 714, 522
+  size: 207, 200
+  orig: 207, 200
+  offset: 0, 0
+  index: -1
+img_quqi
+  rotate: true
+  xy: 854, 288
+  size: 114, 76
+  orig: 114, 76
+  offset: 0, 0
+  index: -1
+img_tangyuan
+  rotate: false
+  xy: 695, 21
+  size: 118, 118
+  orig: 118, 118
+  offset: 0, 0
+  index: -1
+img_xiaodangao
+  rotate: true
+  xy: 516, 239
+  size: 241, 191
+  orig: 241, 191
+  offset: 0, 0
+  index: -1
 mouth-cry
   rotate: true
-  xy: 1409, 470
+  xy: 912, 760
   size: 30, 16
   orig: 30, 16
   offset: 0, 0
   index: -1
 mouth-happy
   rotate: true
-  xy: 1116, 267
+  xy: 637, 96
   size: 33, 23
   orig: 33, 23
   offset: 0, 0
   index: -1
 mouth-jingya
   rotate: false
-  xy: 1409, 502
+  xy: 836, 120
   size: 17, 19
   orig: 17, 19
   offset: 0, 0
   index: -1
 mouth-normal
-  rotate: true
-  xy: 1141, 267
+  rotate: false
+  xy: 856, 145
   size: 33, 23
   orig: 33, 23
   offset: 0, 0
   index: -1
 role1_pi
   rotate: true
-  xy: 1165, 24
+  xy: 809, 792
   size: 158, 121
   orig: 158, 121
   offset: 0, 0
   index: -1
 role2_xian
-  rotate: true
-  xy: 1038, 376
+  rotate: false
+  xy: 709, 141
   size: 145, 123
   orig: 145, 123
   offset: 0, 0
   index: -1
 role3_bing
-  rotate: true
-  xy: 1288, 39
+  rotate: false
+  xy: 709, 266
   size: 143, 136
   orig: 144, 136
   offset: 1, 0
   index: -1
 role4_naiyou
   rotate: false
-  xy: 1166, 184
+  xy: 714, 404
   size: 159, 116
   orig: 159, 116
   offset: 0, 0
   index: -1
 saihong
   rotate: true
-  xy: 1409, 336
+  xy: 932, 818
   size: 132, 14
   orig: 132, 14
   offset: 0, 0
   index: -1
 tear
   rotate: false
-  xy: 1077, 263
+  xy: 856, 170
   size: 37, 37
   orig: 37, 37
   offset: 0, 0
   index: -1
 wen
-  rotate: false
-  xy: 1038, 260
+  rotate: true
+  xy: 815, 2
   size: 37, 40
   orig: 37, 40
   offset: 0, 0

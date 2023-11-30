@@ -15,4 +15,7 @@ export enum EventType {
     DRAG_ICON = "DRAG_ICON",
     DRAG_ICON_END = "DRAG_ICON_END",
     CLICK_ICON = "CLICK_ICON",
+
+    //game
+    CLICK_ROLE = "CLICK_ROLE",
 }

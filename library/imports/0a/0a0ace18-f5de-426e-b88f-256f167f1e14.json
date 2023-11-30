@@ -5,14 +5,14 @@
   "_native": "",
   "_skeletonJson": {
     "skeleton": {
-      "hash": "bodjL5H8kY4/V8/WMwoRrUPz6Tk",
+      "hash": "YbPUbdwzI+iHHAOMKMVs9zYNOgw",
       "spine": "3.8.75",
       "x": -79,
       "y": -1.03,
       "width": 158,
       "height": 121,
       "images": "./images/",
-      "audio": "C:/Users/1/Desktop/黑白配/黑白配/资料/PSD/images"
+      "audio": ""
     },
     "bones": [
       {
@@ -132,6 +132,10 @@
         "y": 47.73,
         "scaleX": 1.1,
         "scaleY": 1.1
+      },
+      {
+        "name": "bone",
+        "parent": "root"
       }
     ],
     "slots": [
@@ -191,6 +195,34 @@
       {
         "name": "eft_smoke1-1",
         "bone": "smoke"
+      },
+      {
+        "name": "1_caomeidangao",
+        "bone": "bone"
+      },
+      {
+        "name": "2_caomeidangao_",
+        "bone": "root"
+      },
+      {
+        "name": "img_caomei",
+        "bone": "root"
+      },
+      {
+        "name": "img_dangao",
+        "bone": "root"
+      },
+      {
+        "name": "img_tangyuan",
+        "bone": "root"
+      },
+      {
+        "name": "img_quqi",
+        "bone": "root"
+      },
+      {
+        "name": "img_xiaodangao",
+        "bone": "root"
       }
     ],
     "skins": [
@@ -304,6 +336,60 @@
               "height": 44
             }
           },
+          "1_caomeidangao": {
+            "1_caomeidangao": {
+              "x": -1.31,
+              "y": 50.77,
+              "width": 87,
+              "height": 111
+            },
+            "2_caomeidangao_": {
+              "x": -9.91,
+              "y": 40.29,
+              "width": 132,
+              "height": 130
+            },
+            "img_caomei": {
+              "x": -7.59,
+              "y": 45.18,
+              "scaleX": 1.3512,
+              "scaleY": 1.3512,
+              "width": 71,
+              "height": 77
+            },
+            "img_dangao": {
+              "x": 0.86,
+              "y": 42.25,
+              "scaleX": 0.4865,
+              "scaleY": 0.4865,
+              "width": 207,
+              "height": 200
+            },
+            "img_quqi": {
+              "x": -1.46,
+              "y": 43.38,
+              "scaleX": 1.3,
+              "scaleY": 1.3,
+              "width": 114,
+              "height": 76
+            },
+            "img_tangyuan": {
+              "x": -1.5,
+              "y": 41.83,
+              "scaleX": 0.8,
+              "scaleY": 0.8,
+              "width": 118,
+              "height": 118
+            },
+            "img_xiaodangao": {
+              "x": -9.27,
+              "y": 30.73,
+              "scaleX": 0.5,
+              "scaleY": 0.5,
+              "width": 241,
+              "height": 191
+            }
+          },
           "wen": {
             "wen": {
               "y": 21.15,
@@ -395,9 +481,23 @@
       }
     ],
     "animations": {
-      "eft_smoke": {
+      "1": {
         "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "1_caomeidangao"
+              }
+            ]
+          },
           "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
             "attachment": [
               {
                 "name": null
@@ -411,7 +511,46 @@
               }
             ]
           },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
           "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "2": {
+        "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "2_caomeidangao_"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
             "attachment": [
               {
                 "name": null
@@ -425,11 +564,249 @@
               }
             ]
           },
-          "eft_smoke1-1": {
+          "eye-yanzhu": {
             "attachment": [
               {
                 "name": null
-              },
+              }
+            ]
+          }
+        }
+      },
+      "3": {
+        "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "img_caomei"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "4": {
+        "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "img_dangao"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "5": {
+        "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "img_quqi"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "6": {
+        "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "img_tangyuan"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "7": {
+        "slots": {
+          "1_caomeidangao": {
+            "attachment": [
+              {
+                "name": "img_xiaodangao"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        }
+      },
+      "eft_smoke": {
+        "slots": {
+          "eft_smoke1-1": {
+            "attachment": [
               {
                 "time": 0.0333,
                 "name": "eft_smoke1-1"
@@ -504,7 +881,35 @@
               }
             ]
           },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
           "mouth-normal": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-yanzhu": {
             "attachment": [
               {
                 "name": null
@@ -513,17 +918,314 @@
           }
         }
       },
-      "role1_anim1_stand": {
+      "role1_false": {
         "slots": {
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "name": "eye-cry"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-cry"
+              }
+            ]
+          },
           "eye-yanzhu": {
             "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "saihong": {
+            "translate": [
+              {
+                "y": -7.14
+              }
+            ]
+          },
+          "body": {
+            "scale": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8333,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.1667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.2333,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.3,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.3667,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.4333,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.5,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.5667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.6667,
+                "y": 0.6
+              },
+              {
+                "time": 1.7667,
+                "y": 1.2
+              },
+              {
+                "time": 1.8667,
+                "y": 0.9
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "role1_lookLR": {
+        "slots": {
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "eye-yanbai"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": "eye-close"
+              },
               {
                 "time": 0.6667,
                 "name": null
               },
               {
-                "time": 0.8333,
+                "time": 1.5,
+                "name": "eye-close"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
                 "name": "eye-yanzhu"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "yanzhu": {
+            "translate": [
+              {
+                "x": 0.36
+              },
+              {
+                "time": 0.2,
+                "x": -6.19,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8667,
+                "x": -6.19
+              },
+              {
+                "time": 1.2,
+                "x": 4.73,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8667,
+                "x": 4.73
+              },
+              {
+                "time": 2,
+                "x": 0.36
+              }
+            ]
+          },
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "role1_stand": {
+        "slots": {
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
               }
             ]
           },
@@ -539,22 +1241,15 @@
               }
             ]
           },
-          "eye-jingya": {
+          "eye-yanzhu": {
             "attachment": [
               {
                 "time": 0.6667,
-                "name": "eye-close"
+                "name": null
               },
               {
                 "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "eyeborwR"
+                "name": "eye-yanzhu"
               }
             ]
           }
@@ -634,2516 +1329,57 @@
                 "time": 2
               }
             ]
-          }
-        }
-      },
-      "role1_anim2_jump": {
-        "slots": {
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
           },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-happu"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-normal"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "body": {
-            "translate": [
-              {
-                "curve": "stepped"
-              },
-              {
-                "time": 0.1667,
-                "curve": 0.015,
-                "c2": 0.23,
-                "c3": 0.75
-              },
-              {
-                "time": 0.4,
-                "y": 48.1,
-                "curve": 0.433,
-                "c4": 0.59
-              },
-              {
-                "time": 0.6667
-              }
-            ],
+          "yanbai": {
             "scale": [
               {
+                "time": 0.5,
                 "curve": 0.25,
                 "c3": 0.75
               },
               {
-                "time": 0.1667,
-                "y": 0.8,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.4,
-                "y": 1.1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.6667,
-                "curve": 0.25,
-                "c3": 0.75
+                "time": 0.7333,
+                "y": 0.088,
+                "curve": "stepped"
               },
               {
                 "time": 0.8,
-                "y": 0.85,
+                "y": 0.088,
                 "curve": 0.25,
                 "c3": 0.75
               },
               {
-                "time": 0.9,
-                "y": 1.05,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.0333,
-                "y": 0.95
-              },
-              {
-                "time": 1.1667
-              },
-              {
-                "time": 1.5667,
-                "y": 0.95
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "mouth": {
-            "translate": [
-              {},
-              {
-                "time": 0.5,
-                "y": 1.29
-              },
-              {
-                "time": 1
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0,
-                "c2": 0.63,
-                "c3": 0.541
-              },
-              {
-                "time": 0.5,
-                "x": 1.604,
-                "y": 1.2,
-                "curve": 0,
-                "c2": 0.22,
-                "c3": 0.75
-              },
-              {
-                "time": 1
-              }
-            ]
-          },
-          "eye": {
-            "translate": [
-              {
-                "y": -9.34
-              }
-            ]
-          },
-          "face": {
-            "translate": [
-              {
-                "curve": "stepped"
-              },
-              {
-                "time": 0.1667,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.4,
-                "y": 15.41,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.6667
-              }
-            ]
-          }
-        }
-      },
-      "role1_anim3_cry": {
-        "slots": {
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "tear2": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.2667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.4667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.7667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.9667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.3,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8,
-                "color": "ffffffff"
-              },
-              {
-                "time": 2,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "tear"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-cry"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-cry"
-              }
-            ]
-          },
-          "tear1": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.2667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.4667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.7667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.9667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.3,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8,
-                "color": "ffffffff"
-              },
-              {
-                "time": 2,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "tear"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "mouth": {
-            "translate": [
-              {},
-              {
-                "time": 0.1667,
-                "y": 1.33
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "y": 1.33
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "y": 1.33
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "y": 1.33
-              },
-              {
-                "time": 1.3333
-              },
-              {
-                "time": 1.5,
-                "y": 1.33
-              },
-              {
-                "time": 1.6667
-              },
-              {
-                "time": 1.8333,
-                "y": 1.33
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "saihong": {
-            "translate": [
-              {
-                "y": -5.82,
-                "curve": "stepped"
-              },
-              {
-                "time": 2,
-                "y": -5.82
-              }
-            ]
-          },
-          "tearR1": {
-            "rotate": [
-              {},
-              {
-                "time": 0.4667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5
-              },
-              {
-                "time": 0.9667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333
-              },
-              {
-                "time": 2,
-                "angle": 30.76
-              }
-            ],
-            "translate": [
-              {
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.2667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.4667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.7667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.9667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.3,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 1.5,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.8,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 2,
-                "x": -37.88,
-                "y": -40.39
-              }
-            ],
-            "scale": [
-              {
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.2667
-              },
-              {
-                "time": 0.5,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.7667
-              },
-              {
-                "time": 1,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.3
-              },
-              {
-                "time": 1.5333,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.8
-              }
-            ]
-          },
-          "tearL1": {
-            "rotate": [
-              {},
-              {
-                "time": 0.4667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5
-              },
-              {
-                "time": 0.9667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333
-              },
-              {
-                "time": 2,
-                "angle": 30.76
-              }
-            ],
-            "translate": [
-              {
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.2667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.4667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.7667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.9667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.3,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 1.5,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.8,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 2,
-                "x": -37.88,
-                "y": -40.39
-              }
-            ],
-            "scale": [
-              {
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.2667
-              },
-              {
-                "time": 0.5,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.7667
-              },
-              {
-                "time": 1,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.3
-              },
-              {
-                "time": 1.5333,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.8
-              }
-            ]
-          },
-          "eye": {
-            "translate": [
-              {},
-              {
-                "time": 0.1667,
-                "y": -2.42
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "y": -2.42
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "y": -2.42
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "y": -2.42
-              },
-              {
-                "time": 1.3333
-              },
-              {
-                "time": 1.5,
-                "y": -2.42
-              },
-              {
-                "time": 1.6667
-              },
-              {
-                "time": 1.8333,
-                "y": -2.42
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role1_anim4_lookLR": {
-        "slots": {
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanbai"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 1.5,
-                "name": "eye-close"
-              },
-              {
-                "time": 1.6667,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "mouth": {
-            "scale": [
-              {},
-              {
-                "time": 0.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 2
+                "time": 0.9
               }
             ]
           },
           "yanzhu": {
-            "translate": [
-              {
-                "x": 0.36
-              },
-              {
-                "time": 0.2,
-                "x": -6.19,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.8667,
-                "x": -6.19
-              },
-              {
-                "time": 1.2,
-                "x": 4.73,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8667,
-                "x": 4.73
-              },
-              {
-                "time": 2,
-                "x": 0.36
-              }
-            ]
-          },
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
+            "scale": [
               {
                 "time": 0.5,
-                "y": -2.35,
                 "curve": 0.25,
                 "c3": 0.75
               },
               {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role1_anim5_yihuo": {
-        "slots": {
-          "wen2": {
-            "color": [
-              {
-                "color": "ffffffff",
+                "time": 0.7333,
+                "y": 0.088,
                 "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "wen"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": "eye-yanbai"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "wen": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "wen"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
-              }
-            ]
-          },
-          "eyeborwR": {
-            "attachment": [
-              {
-                "name": "eyeborwR"
-              }
-            ]
-          },
-          "eyeborwL": {
-            "attachment": [
-              {
-                "name": "eyeborwL"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "yanzhu": {
-            "translate": [
-              {
-                "curve": 0.002,
-                "c2": 0.21,
-                "c3": 0.75
-              },
-              {
-                "time": 0.2333,
-                "x": 4.02,
-                "y": -3.63,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": 4.02,
-                "y": -3.63
-              },
-              {
-                "time": 1.5
-              }
-            ]
-          },
-          "mouth": {
-            "scale": [
-              {},
-              {
-                "time": 0.2333,
-                "x": 0.728,
-                "y": 1.15
-              },
-              {
-                "time": 0.3,
-                "x": 0.897,
-                "y": 1.408
-              },
-              {
-                "time": 0.3667,
-                "x": 0.728,
-                "y": 1.15
-              },
-              {
-                "time": 0.4333,
-                "x": 0.897,
-                "y": 1.408
-              },
-              {
-                "time": 0.5,
-                "x": 0.728,
-                "y": 1.15,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": 0.728,
-                "y": 1.15
-              },
-              {
-                "time": 1.5
-              }
-            ]
-          },
-          "eyeborwR": {
-            "rotate": [
-              {
-                "angle": -2.4
-              }
-            ],
-            "translate": [
-              {
-                "x": 3.59,
-                "y": -4.81
-              }
-            ],
-            "scale": [
-              {
-                "x": 0.98
-              }
-            ]
-          },
-          "eyeborwL": {
-            "translate": [
-              {
-                "curve": "stepped"
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.4,
-                "y": -3.31
-              },
-              {
-                "time": 0.4667
-              },
-              {
-                "time": 0.5333,
-                "y": -3.31
-              },
-              {
-                "time": 0.6
-              },
-              {
-                "time": 0.6667,
-                "y": -3.31
-              },
-              {
-                "time": 0.7333
-              }
-            ]
-          },
-          "face": {
-            "translate": [
-              {
-                "curve": 0,
-                "c2": 0.33,
-                "c3": 0.75
-              },
-              {
-                "time": 0.2333,
-                "x": -14.26,
-                "y": 16.19,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": -14.26,
-                "y": 16.19
-              },
-              {
-                "time": 1.5
-              }
-            ]
-          },
-          "wenhao1": {
-            "scale": [
-              {
-                "y": 0,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.1667,
-                "y": 0
-              },
-              {
-                "time": 0.2667,
-                "y": 1.4
-              },
-              {
-                "time": 0.3667,
-                "y": 0.857
-              },
-              {
-                "time": 0.4667
-              }
-            ]
-          },
-          "wenhao2": {
-            "scale": [
-              {
-                "y": 0,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.1667,
-                "y": 0,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.2667,
-                "y": 0
-              },
-              {
-                "time": 0.3667,
-                "y": 1.2
-              },
-              {
-                "time": 0.4667,
-                "y": 0.9
-              },
-              {
-                "time": 0.5667
-              }
-            ]
-          },
-          "wenhao": {
-            "translate": [
-              {
-                "x": 0.5,
-                "y": -15.69
-              }
-            ]
-          }
-        }
-      },
-      "role1_anim6_true": {
-        "slots": {
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "mouth": {
-            "scale": [
-              {
-                "x": 1.281
-              },
-              {
-                "time": 0.1667,
-                "y": 1.484
-              },
-              {
-                "time": 0.3333,
-                "x": 1.281
-              },
-              {
-                "time": 0.5,
-                "y": 1.484
-              },
-              {
-                "time": 0.6667,
-                "x": 1.281
-              },
-              {
-                "time": 0.8333,
-                "y": 1.484
-              },
-              {
-                "time": 1,
-                "x": 1.281
-              },
-              {
-                "time": 1.1667,
-                "y": 1.484
-              },
-              {
-                "time": 1.3333,
-                "x": 1.281
-              },
-              {
-                "time": 1.5,
-                "y": 1.484
-              },
-              {
-                "time": 1.6667,
-                "x": 1.281
-              },
-              {
-                "time": 1.8333,
-                "y": 1.484
-              },
-              {
-                "time": 2,
-                "x": 1.281
-              }
-            ]
-          },
-          "body": {
-            "scale": [
-              {},
-              {
-                "time": 0.1667,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 1.3333
-              },
-              {
-                "time": 1.5,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 1.6667
-              },
-              {
-                "time": 1.8333,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role1_anim7_false": {
-        "slots": {
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-cry"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-cry"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "saihong": {
-            "translate": [
-              {
-                "y": -7.14
-              }
-            ]
-          },
-          "body": {
-            "scale": [
-              {},
-              {
-                "time": 0.1667,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.2333,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.3,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.3667,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.4333,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.5,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.5667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.6667,
-                "y": 0.6
-              },
-              {
-                "time": 1.7667,
-                "y": 1.2
-              },
-              {
-                "time": 1.8667,
-                "y": 0.9
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role2_anim1_stand": {
-        "slots": {
-          "saihong": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role2_xian"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "eyeborwR"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "mouth": {
-            "scale": [
-              {},
-              {
-                "time": 0.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role2_anim2_jump": {
-        "slots": {
-          "saihong": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role2_xian"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-happu"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-normal"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "body": {
-            "translate": [
-              {
-                "curve": "stepped"
-              },
-              {
-                "time": 0.1667,
-                "curve": 0.015,
-                "c2": 0.23,
-                "c3": 0.75
-              },
-              {
-                "time": 0.4,
-                "y": 48.1,
-                "curve": 0.433,
-                "c4": 0.59
-              },
-              {
-                "time": 0.6667
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.1667,
-                "y": 0.8,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.4,
-                "y": 1.1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.6667,
-                "curve": 0.25,
-                "c3": 0.75
               },
               {
                 "time": 0.8,
-                "y": 0.85,
+                "y": 0.088,
                 "curve": 0.25,
                 "c3": 0.75
               },
               {
-                "time": 0.9,
-                "y": 1.05,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.0333,
-                "y": 0.95
-              },
-              {
-                "time": 1.1667
-              },
-              {
-                "time": 1.5667,
-                "y": 0.95
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "mouth": {
-            "translate": [
-              {},
-              {
-                "time": 0.5,
-                "y": 1.29
-              },
-              {
-                "time": 1
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0,
-                "c2": 0.63,
-                "c3": 0.541
-              },
-              {
-                "time": 0.5,
-                "x": 1.604,
-                "y": 1.2,
-                "curve": 0,
-                "c2": 0.22,
-                "c3": 0.75
-              },
-              {
-                "time": 1
-              }
-            ]
-          },
-          "eye": {
-            "translate": [
-              {
-                "y": -9.34
-              }
-            ]
-          },
-          "face": {
-            "translate": [
-              {
-                "curve": "stepped"
-              },
-              {
-                "time": 0.1667,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.4,
-                "y": 15.41,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.6667
+                "time": 0.9
               }
             ]
           }
         }
       },
-      "role2_anim3_cry": {
+      "role1_true": {
         "slots": {
-          "saihong": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role2_xian"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "tear2": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.2667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.4667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.7667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.9667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.3,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8,
-                "color": "ffffffff"
-              },
-              {
-                "time": 2,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "tear"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-cry"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-cry"
-              }
-            ]
-          },
-          "tear1": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.2667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.4667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 0.7667,
-                "color": "ffffffff"
-              },
-              {
-                "time": 0.9667,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.3,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8,
-                "color": "ffffffff"
-              },
-              {
-                "time": 2,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "tear"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "mouth": {
-            "translate": [
-              {},
-              {
-                "time": 0.1667,
-                "y": 1.33
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "y": 1.33
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "y": 1.33
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "y": 1.33
-              },
-              {
-                "time": 1.3333
-              },
-              {
-                "time": 1.5,
-                "y": 1.33
-              },
-              {
-                "time": 1.6667
-              },
-              {
-                "time": 1.8333,
-                "y": 1.33
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "saihong": {
-            "translate": [
-              {
-                "y": -5.82,
-                "curve": "stepped"
-              },
-              {
-                "time": 2,
-                "y": -5.82
-              }
-            ]
-          },
-          "tearR1": {
-            "rotate": [
-              {},
-              {
-                "time": 0.4667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5
-              },
-              {
-                "time": 0.9667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333
-              },
-              {
-                "time": 2,
-                "angle": 30.76
-              }
-            ],
-            "translate": [
-              {
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.2667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.4667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.7667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.9667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.3,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 1.5,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.8,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 2,
-                "x": -37.88,
-                "y": -40.39
-              }
-            ],
-            "scale": [
-              {
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.2667
-              },
-              {
-                "time": 0.5,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.7667
-              },
-              {
-                "time": 1,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.3
-              },
-              {
-                "time": 1.5333,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.8
-              }
-            ]
-          },
-          "tearL1": {
-            "rotate": [
-              {},
-              {
-                "time": 0.4667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5
-              },
-              {
-                "time": 0.9667,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "angle": 30.76,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333
-              },
-              {
-                "time": 2,
-                "angle": 30.76
-              }
-            ],
-            "translate": [
-              {
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.2667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.4667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.5,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 0.7667,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 0.9667,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.3,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 1.5,
-                "x": -37.88,
-                "y": -40.39,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.5333,
-                "x": 18.05,
-                "y": 13.45
-              },
-              {
-                "time": 1.8,
-                "x": -17.7,
-                "y": -13.47
-              },
-              {
-                "time": 2,
-                "x": -37.88,
-                "y": -40.39
-              }
-            ],
-            "scale": [
-              {
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.2667
-              },
-              {
-                "time": 0.5,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 0.7667
-              },
-              {
-                "time": 1,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.3
-              },
-              {
-                "time": 1.5333,
-                "x": 0,
-                "y": 0
-              },
-              {
-                "time": 1.8
-              }
-            ]
-          },
-          "eye": {
-            "translate": [
-              {},
-              {
-                "time": 0.1667,
-                "y": -2.42
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "y": -2.42
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "y": -2.42
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "y": -2.42
-              },
-              {
-                "time": 1.3333
-              },
-              {
-                "time": 1.5,
-                "y": -2.42
-              },
-              {
-                "time": 1.6667
-              },
-              {
-                "time": 1.8333,
-                "y": -2.42
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role2_anim4_lookLR": {
-        "slots": {
-          "saihong": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role2_xian"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanbai"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 1.5,
-                "name": "eye-close"
-              },
-              {
-                "time": 1.6667,
-                "name": null
-              }
-            ]
-          },
           "mouth-normal": {
             "attachment": [
               {
@@ -3155,102 +1391,106 @@
         "bones": {
           "mouth": {
             "scale": [
-              {},
+              {
+                "x": 1.281
+              },
+              {
+                "time": 0.1667,
+                "y": 1.484
+              },
+              {
+                "time": 0.3333,
+                "x": 1.281
+              },
               {
                 "time": 0.5,
-                "x": 1.2,
-                "y": 1.2
+                "y": 1.484
+              },
+              {
+                "time": 0.6667,
+                "x": 1.281
+              },
+              {
+                "time": 0.8333,
+                "y": 1.484
+              },
+              {
+                "time": 1,
+                "x": 1.281
+              },
+              {
+                "time": 1.1667,
+                "y": 1.484
+              },
+              {
+                "time": 1.3333,
+                "x": 1.281
+              },
+              {
+                "time": 1.5,
+                "y": 1.484
+              },
+              {
+                "time": 1.6667,
+                "x": 1.281
+              },
+              {
+                "time": 1.8333,
+                "y": 1.484
+              },
+              {
+                "time": 2,
+                "x": 1.281
+              }
+            ]
+          },
+          "body": {
+            "scale": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8333,
+                "x": 0.9,
+                "y": 1.1
               },
               {
                 "time": 1
               },
               {
-                "time": 1.5,
-                "x": 1.2,
-                "y": 1.2
+                "time": 1.1667,
+                "x": 0.9,
+                "y": 1.1
               },
               {
-                "time": 2
-              }
-            ]
-          },
-          "yanzhu": {
-            "translate": [
-              {
-                "x": 0.36
-              },
-              {
-                "time": 0.2,
-                "x": -6.19,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.8667,
-                "x": -6.19
-              },
-              {
-                "time": 1.2,
-                "x": 4.73,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8667,
-                "x": 4.73
-              },
-              {
-                "time": 2,
-                "x": 0.36
-              }
-            ]
-          },
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
+                "time": 1.3333
               },
               {
                 "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
+                "x": 0.9,
+                "y": 1.1
               },
               {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
+                "time": 1.6667
               },
               {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
+                "time": 1.8333,
+                "x": 0.9,
+                "y": 1.1
               },
               {
                 "time": 2
@@ -3259,73 +1499,18 @@
           }
         }
       },
-      "role2_anim5_yihuo": {
+      "role1_yihuo": {
         "slots": {
-          "wen2": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00"
-              }
-            ],
+          "eyeborwL": {
             "attachment": [
               {
-                "name": "wen"
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role2_xian"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": "eye-yanbai"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanbai"
+                "name": "eyeborwL"
               }
             ]
           },
           "wen": {
             "color": [
               {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
                 "time": 1,
                 "color": "ffffffff"
               },
@@ -3337,28 +1522,6 @@
             "attachment": [
               {
                 "name": "wen"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
               }
             ]
           },
@@ -3369,17 +1532,63 @@
               }
             ]
           },
-          "saihong": {
+          "mouth-normal": {
             "attachment": [
               {
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
                 "name": null
               }
             ]
           },
-          "eyeborwL": {
+          "wen2": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
             "attachment": [
               {
-                "name": "eyeborwL"
+                "name": "wen"
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanzhu"
               }
             ]
           }
@@ -3522,9 +1731,6 @@
           "eyeborwL": {
             "translate": [
               {
-                "curve": "stepped"
-              },
-              {
                 "time": 0.3333
               },
               {
@@ -3603,11 +1809,6 @@
                 "curve": "stepped"
               },
               {
-                "time": 0.1667,
-                "y": 0,
-                "curve": "stepped"
-              },
-              {
                 "time": 0.2667,
                 "y": 0
               },
@@ -3634,7 +1835,463 @@
           }
         }
       },
-      "role2_anim6_true": {
+      "role2_false": {
+        "slots": {
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "name": "eye-cry"
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role2_xian"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-cry"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "saihong": {
+            "translate": [
+              {
+                "y": -7.14
+              }
+            ]
+          },
+          "body": {
+            "scale": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8333,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.1667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.2333,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.3,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.3667,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.4333,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.5,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.5667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.6667,
+                "y": 0.6
+              },
+              {
+                "time": 1.7667,
+                "y": 1.2
+              },
+              {
+                "time": 1.8667,
+                "y": 0.9
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "role2_lookLR": {
+        "slots": {
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "eye-yanbai"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 1.5,
+                "name": "eye-close"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role2_xian"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "eye-yanzhu"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "yanzhu": {
+            "translate": [
+              {
+                "x": 0.36
+              },
+              {
+                "time": 0.2,
+                "x": -6.19,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8667,
+                "x": -6.19
+              },
+              {
+                "time": 1.2,
+                "x": 4.73,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8667,
+                "x": 4.73
+              },
+              {
+                "time": 2,
+                "x": 0.36
+              }
+            ]
+          },
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "role2_stand": {
+        "slots": {
+          "saihong": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role2_xian"
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          }
+        }
+      },
+      "role2_true": {
         "slots": {
           "saihong": {
             "attachment": [
@@ -3769,538 +2426,18 @@
           }
         }
       },
-      "role2_anim7_false": {
+      "role2_yihuo": {
         "slots": {
-          "saihong": {
+          "eyeborwL": {
             "attachment": [
               {
-                "name": null
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role2_xian"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-cry"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-cry"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "saihong": {
-            "translate": [
-              {
-                "y": -7.14
-              }
-            ]
-          },
-          "body": {
-            "scale": [
-              {},
-              {
-                "time": 0.1667,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.2333,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.3,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.3667,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.4333,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.5,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.5667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.6667,
-                "y": 0.6
-              },
-              {
-                "time": 1.7667,
-                "y": 1.2
-              },
-              {
-                "time": 1.8667,
-                "y": 0.9
-              },
-              {
-                "time": 2
-              }
-            ]
-          }
-        }
-      },
-      "role3_anim1_stand": {
-        "slots": {
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role3_bing"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "eyeborwR"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "mouth": {
-            "scale": [
-              {},
-              {
-                "time": 0.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "face": {
-            "scale": [
-              {
-                "x": 0.75,
-                "y": 0.75
-              }
-            ]
-          }
-        }
-      },
-      "role3_anim2_lookLR": {
-        "slots": {
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role3_bing"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanbai"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 1.5,
-                "name": "eye-close"
-              },
-              {
-                "time": 1.6667,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "mouth": {
-            "scale": [
-              {},
-              {
-                "time": 0.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.5,
-                "x": 1.2,
-                "y": 1.2
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "yanzhu": {
-            "translate": [
-              {
-                "x": 0.36
-              },
-              {
-                "time": 0.2,
-                "x": -6.19,
-                "curve": "stepped"
-              },
-              {
-                "time": 0.8667,
-                "x": -6.19
-              },
-              {
-                "time": 1.2,
-                "x": 4.73,
-                "curve": "stepped"
-              },
-              {
-                "time": 1.8667,
-                "x": 4.73
-              },
-              {
-                "time": 2,
-                "x": 0.36
-              }
-            ]
-          },
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "face": {
-            "scale": [
-              {
-                "x": 0.75,
-                "y": 0.75
-              }
-            ]
-          }
-        }
-      },
-      "role3_anim3_yihuo": {
-        "slots": {
-          "wen2": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00"
-              }
-            ],
-            "attachment": [
-              {
-                "name": "wen"
-              }
-            ]
-          },
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role3_bing"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": "eye-yanbai"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanbai"
+                "name": "eyeborwL"
               }
             ]
           },
           "wen": {
             "color": [
               {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
                 "time": 1,
                 "color": "ffffffff"
               },
@@ -4315,25 +2452,10 @@
               }
             ]
           },
-          "eye-jingya": {
+          "saihong": {
             "attachment": [
               {
                 "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
               }
             ]
           },
@@ -4344,10 +2466,70 @@
               }
             ]
           },
-          "eyeborwL": {
+          "mouth-normal": {
             "attachment": [
               {
-                "name": "eyeborwL"
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "wen2": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "wen"
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role2_xian"
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanzhu"
               }
             ]
           }
@@ -4490,9 +2672,6 @@
           "eyeborwL": {
             "translate": [
               {
-                "curve": "stepped"
-              },
-              {
                 "time": 0.3333
               },
               {
@@ -4539,12 +2718,6 @@
               {
                 "time": 1.5
               }
-            ],
-            "scale": [
-              {
-                "x": 0.75,
-                "y": 0.75
-              }
             ]
           },
           "wenhao1": {
@@ -4577,11 +2750,6 @@
                 "curve": "stepped"
               },
               {
-                "time": 0.1667,
-                "y": 0,
-                "curve": "stepped"
-              },
-              {
                 "time": 0.2667,
                 "y": 0
               },
@@ -4608,7 +2776,466 @@
           }
         }
       },
-      "role3_anim4_true": {
+      "role3_false": {
+        "slots": {
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "name": "eye-cry"
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role3_bing"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-cry"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
+              }
+            ]
+          }
+        },
+        "bones": {
+          "saihong": {
+            "translate": [
+              {
+                "y": -7.14
+              }
+            ]
+          },
+          "body": {
+            "scale": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8333,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.1667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.2333,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.3,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.3667,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.4333,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.5,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.5667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.6667,
+                "y": 0.6
+              },
+              {
+                "time": 1.7667,
+                "y": 1.2
+              },
+              {
+                "time": 1.8667,
+                "y": 0.9
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "face": {
+            "scale": [
+              {
+                "x": 0.75,
+                "y": 0.75
+              }
+            ]
+          }
+        }
+      },
+      "role3_ookLR": {
+        "slots": {
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "eye-yanbai"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 1.5,
+                "name": "eye-close"
+              },
+              {
+                "time": 1.6667,
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role3_bing"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "eye-yanzhu"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "yanzhu": {
+            "translate": [
+              {
+                "x": 0.36
+              },
+              {
+                "time": 0.2,
+                "x": -6.19,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8667,
+                "x": -6.19
+              },
+              {
+                "time": 1.2,
+                "x": 4.73,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.8667,
+                "x": 4.73
+              },
+              {
+                "time": 2,
+                "x": 0.36
+              }
+            ]
+          },
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "face": {
+            "scale": [
+              {
+                "x": 0.75,
+                "y": 0.75
+              }
+            ]
+          }
+        }
+      },
+      "role3_stand": {
+        "slots": {
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role3_bing"
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "face": {
+            "scale": [
+              {
+                "x": 0.75,
+                "y": 0.75
+              }
+            ]
+          }
+        }
+      },
+      "role3_true": {
         "slots": {
           "role1_pi": {
             "attachment": [
@@ -4744,8 +3371,75 @@
           }
         }
       },
-      "role3_anim5_false": {
+      "role3_yihuo": {
         "slots": {
+          "eyeborwL": {
+            "attachment": [
+              {
+                "name": "eyeborwL"
+              }
+            ]
+          },
+          "wen": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "wen"
+              }
+            ]
+          },
+          "eyeborwR": {
+            "attachment": [
+              {
+                "name": "eyeborwR"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "wen2": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "wen"
+              }
+            ]
+          },
           "role1_pi": {
             "attachment": [
               {
@@ -4753,13 +3447,281 @@
               }
             ]
           },
-          "eye-yanzhu": {
+          "eye-yanbai": {
             "attachment": [
               {
+                "time": 0.6667,
                 "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanbai"
               }
             ]
           },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "yanzhu": {
+            "translate": [
+              {
+                "curve": 0.002,
+                "c2": 0.21,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2333,
+                "x": 4.02,
+                "y": -3.63,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 4.02,
+                "y": -3.63
+              },
+              {
+                "time": 1.5
+              }
+            ]
+          },
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.2333,
+                "x": 0.728,
+                "y": 1.15
+              },
+              {
+                "time": 0.3,
+                "x": 0.897,
+                "y": 1.408
+              },
+              {
+                "time": 0.3667,
+                "x": 0.728,
+                "y": 1.15
+              },
+              {
+                "time": 0.4333,
+                "x": 0.897,
+                "y": 1.408
+              },
+              {
+                "time": 0.5,
+                "x": 0.728,
+                "y": 1.15,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.728,
+                "y": 1.15
+              },
+              {
+                "time": 1.5
+              }
+            ]
+          },
+          "eyeborwR": {
+            "rotate": [
+              {
+                "angle": -2.4
+              }
+            ],
+            "translate": [
+              {
+                "x": 3.59,
+                "y": -4.81
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.98
+              }
+            ]
+          },
+          "eyeborwL": {
+            "translate": [
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.4,
+                "y": -3.31
+              },
+              {
+                "time": 0.4667
+              },
+              {
+                "time": 0.5333,
+                "y": -3.31
+              },
+              {
+                "time": 0.6
+              },
+              {
+                "time": 0.6667,
+                "y": -3.31
+              },
+              {
+                "time": 0.7333
+              }
+            ]
+          },
+          "face": {
+            "translate": [
+              {
+                "curve": 0,
+                "c2": 0.33,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2333,
+                "x": -14.26,
+                "y": 16.19,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": -14.26,
+                "y": 16.19
+              },
+              {
+                "time": 1.5
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.75,
+                "y": 0.75
+              }
+            ]
+          },
+          "wenhao1": {
+            "scale": [
+              {
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "y": 1.4
+              },
+              {
+                "time": 0.3667,
+                "y": 0.857
+              },
+              {
+                "time": 0.4667
+              }
+            ]
+          },
+          "wenhao2": {
+            "scale": [
+              {
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "y": 0
+              },
+              {
+                "time": 0.3667,
+                "y": 1.2
+              },
+              {
+                "time": 0.4667,
+                "y": 0.9
+              },
+              {
+                "time": 0.5667
+              }
+            ]
+          },
+          "wenhao": {
+            "translate": [
+              {
+                "x": 0.5,
+                "y": -15.69
+              }
+            ]
+          }
+        }
+      },
+      "role4_false": {
+        "slots": {
           "eye-yanbai": {
             "attachment": [
               {
@@ -4774,113 +3736,6 @@
               }
             ]
           },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-cry"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "saihong": {
-            "translate": [
-              {
-                "y": -7.14
-              }
-            ]
-          },
-          "body": {
-            "scale": [
-              {},
-              {
-                "time": 0.1667,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.2333,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.3,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.3667,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.4333,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.5,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.5667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.6667,
-                "y": 0.6
-              },
-              {
-                "time": 1.7667,
-                "y": 1.2
-              },
-              {
-                "time": 1.8667,
-                "y": 0.9
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "face": {
-            "scale": [
-              {
-                "x": 0.75,
-                "y": 0.75
-              }
-            ]
-          }
-        }
-      },
-      "role4_anim1_stand": {
-        "slots": {
           "role1_pi": {
             "attachment": [
               {
@@ -4888,120 +3743,102 @@
               }
             ]
           },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanbai"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "time": 0.6667,
-                "name": "eye-close"
-              },
-              {
-                "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
           "mouth-normal": {
             "attachment": [
               {
-                "name": "eyeborwR"
+                "name": "mouth-cry"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "name": null
               }
             ]
           }
         },
         "bones": {
-          "mouth": {
+          "saihong": {
+            "translate": [
+              {
+                "y": -7.14
+              }
+            ]
+          },
+          "body": {
             "scale": [
               {},
               {
+                "time": 0.1667,
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.3333
+              },
+              {
                 "time": 0.5,
-                "x": 1.2,
-                "y": 1.2
+                "x": 0.85,
+                "y": 1.15
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8333,
+                "x": 0.85,
+                "y": 1.15
               },
               {
                 "time": 1
               },
               {
+                "time": 1.1667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.2333,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.3,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.3667,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.4333,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
                 "time": 1.5,
-                "x": 1.2,
+                "x": 0.65,
+                "y": 1.35
+              },
+              {
+                "time": 1.5667,
+                "x": 0.6,
+                "y": 1.4
+              },
+              {
+                "time": 1.6667,
+                "y": 0.6
+              },
+              {
+                "time": 1.7667,
                 "y": 1.2
               },
               {
-                "time": 2
-              }
-            ]
-          },
-          "body": {
-            "translate": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": -2.35,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 2
-              }
-            ],
-            "scale": [
-              {
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 0.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1,
-                "curve": 0.25,
-                "c3": 0.75
-              },
-              {
-                "time": 1.5,
-                "y": 0.95,
-                "curve": 0.25,
-                "c3": 0.75
+                "time": 1.8667,
+                "y": 0.9
               },
               {
                 "time": 2
@@ -5023,35 +3860,8 @@
           }
         }
       },
-      "role4_anim2_lookLR": {
+      "role4_lookLR": {
         "slots": {
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role4_naiyou"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "time": 0.5,
-                "name": null
-              },
-              {
-                "time": 0.6667,
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 1.5,
-                "name": null
-              },
-              {
-                "time": 1.6667,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
           "eye-yanbai": {
             "attachment": [
               {
@@ -5092,10 +3902,37 @@
               }
             ]
           },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role4_naiyou"
+              }
+            ]
+          },
           "mouth-normal": {
             "attachment": [
               {
                 "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.5,
+                "name": null
+              },
+              {
+                "time": 0.6667,
+                "name": "eye-yanzhu"
+              },
+              {
+                "time": 1.5,
+                "name": null
+              },
+              {
+                "time": 1.6667,
+                "name": "eye-yanzhu"
               }
             ]
           }
@@ -5220,14 +4057,338 @@
           }
         }
       },
-      "role4_anim3_yihuo": {
+      "role4_stand": {
         "slots": {
-          "wen2": {
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role4_naiyou"
+              }
+            ]
+          },
+          "eye-yanbai": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanbai"
+              }
+            ]
+          },
+          "eye-yanzhu": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": null
+              },
+              {
+                "time": 0.8333,
+                "name": "eye-yanzhu"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {},
+              {
+                "time": 0.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.5,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "body": {
+            "translate": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": -2.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ],
+            "scale": [
+              {
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 1.5,
+                "y": 0.95,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "face": {
+            "translate": [
+              {
+                "y": -22
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.9,
+                "y": 0.9
+              }
+            ]
+          }
+        }
+      },
+      "role4_true": {
+        "slots": {
+          "role1_pi": {
+            "attachment": [
+              {
+                "name": "role4_naiyou"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-jingya"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "mouth": {
+            "scale": [
+              {
+                "x": 1.281
+              },
+              {
+                "time": 0.1667,
+                "y": 1.484
+              },
+              {
+                "time": 0.3333,
+                "x": 1.281
+              },
+              {
+                "time": 0.5,
+                "y": 1.484
+              },
+              {
+                "time": 0.6667,
+                "x": 1.281
+              },
+              {
+                "time": 0.8333,
+                "y": 1.484
+              },
+              {
+                "time": 1,
+                "x": 1.281
+              },
+              {
+                "time": 1.1667,
+                "y": 1.484
+              },
+              {
+                "time": 1.3333,
+                "x": 1.281
+              },
+              {
+                "time": 1.5,
+                "y": 1.484
+              },
+              {
+                "time": 1.6667,
+                "x": 1.281
+              },
+              {
+                "time": 1.8333,
+                "y": 1.484
+              },
+              {
+                "time": 2,
+                "x": 1.281
+              }
+            ]
+          },
+          "body": {
+            "scale": [
+              {},
+              {
+                "time": 0.1667,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 0.3333
+              },
+              {
+                "time": 0.5,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 0.6667
+              },
+              {
+                "time": 0.8333,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 1
+              },
+              {
+                "time": 1.1667,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 1.3333
+              },
+              {
+                "time": 1.5,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 1.6667
+              },
+              {
+                "time": 1.8333,
+                "x": 0.9,
+                "y": 1.1
+              },
+              {
+                "time": 2
+              }
+            ]
+          },
+          "face": {
+            "translate": [
+              {
+                "y": -22
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.9,
+                "y": 0.9
+              }
+            ]
+          }
+        }
+      },
+      "role4_yihuo": {
+        "slots": {
+          "eyeborwL": {
+            "attachment": [
+              {
+                "name": "eyeborwL"
+              }
+            ]
+          },
+          "wen": {
             "color": [
               {
-                "color": "ffffffff",
-                "curve": "stepped"
+                "time": 1,
+                "color": "ffffffff"
               },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "name": "wen"
+              }
+            ]
+          },
+          "eyeborwR": {
+            "attachment": [
+              {
+                "name": "eyeborwR"
+              }
+            ]
+          },
+          "mouth-normal": {
+            "attachment": [
+              {
+                "name": "mouth-jingya"
+              }
+            ]
+          },
+          "eye-jingya": {
+            "attachment": [
+              {
+                "time": 0.6667,
+                "name": "eye-close"
+              },
+              {
+                "time": 0.8333,
+                "name": null
+              }
+            ]
+          },
+          "wen2": {
+            "color": [
               {
                 "time": 1,
                 "color": "ffffffff"
@@ -5250,27 +4411,9 @@
               }
             ]
           },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": "eye-yanzhu"
-              },
-              {
-                "time": 0.6667,
-                "name": null
-              },
-              {
-                "time": 0.8333,
-                "name": "eye-yanzhu"
-              }
-            ]
-          },
           "eye-yanbai": {
             "attachment": [
               {
-                "name": "eye-yanbai"
-              },
-              {
                 "time": 0.6667,
                 "name": null
               },
@@ -5280,60 +4423,15 @@
               }
             ]
           },
-          "wen": {
-            "color": [
-              {
-                "color": "ffffffff",
-                "curve": "stepped"
-              },
-              {
-                "time": 1,
-                "color": "ffffffff"
-              },
-              {
-                "time": 1.5,
-                "color": "ffffff00"
-              }
-            ],
+          "eye-yanzhu": {
             "attachment": [
-              {
-                "name": "wen"
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": null
-              },
               {
                 "time": 0.6667,
-                "name": "eye-close"
+                "name": null
               },
               {
                 "time": 0.8333,
-                "name": null
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
-              }
-            ]
-          },
-          "eyeborwR": {
-            "attachment": [
-              {
-                "name": "eyeborwR"
-              }
-            ]
-          },
-          "eyeborwL": {
-            "attachment": [
-              {
-                "name": "eyeborwL"
+                "name": "eye-yanzhu"
               }
             ]
           }
@@ -5475,9 +4573,6 @@
           },
           "eyeborwL": {
             "translate": [
-              {
-                "curve": "stepped"
-              },
               {
                 "time": 0.3333
               },
@@ -5562,11 +4657,6 @@
                 "curve": "stepped"
               },
               {
-                "time": 0.1667,
-                "y": 0,
-                "curve": "stepped"
-              },
-              {
                 "time": 0.2667,
                 "y": 0
               },
@@ -5592,291 +4682,10 @@
             ]
           }
         }
-      },
-      "role4_anim4_true": {
-        "slots": {
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role4_naiyou"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-jingya"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "mouth": {
-            "scale": [
-              {
-                "x": 1.281
-              },
-              {
-                "time": 0.1667,
-                "y": 1.484
-              },
-              {
-                "time": 0.3333,
-                "x": 1.281
-              },
-              {
-                "time": 0.5,
-                "y": 1.484
-              },
-              {
-                "time": 0.6667,
-                "x": 1.281
-              },
-              {
-                "time": 0.8333,
-                "y": 1.484
-              },
-              {
-                "time": 1,
-                "x": 1.281
-              },
-              {
-                "time": 1.1667,
-                "y": 1.484
-              },
-              {
-                "time": 1.3333,
-                "x": 1.281
-              },
-              {
-                "time": 1.5,
-                "y": 1.484
-              },
-              {
-                "time": 1.6667,
-                "x": 1.281
-              },
-              {
-                "time": 1.8333,
-                "y": 1.484
-              },
-              {
-                "time": 2,
-                "x": 1.281
-              }
-            ]
-          },
-          "body": {
-            "scale": [
-              {},
-              {
-                "time": 0.1667,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 1.3333
-              },
-              {
-                "time": 1.5,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 1.6667
-              },
-              {
-                "time": 1.8333,
-                "x": 0.9,
-                "y": 1.1
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "face": {
-            "translate": [
-              {
-                "y": -22
-              }
-            ],
-            "scale": [
-              {
-                "x": 0.9,
-                "y": 0.9
-              }
-            ]
-          }
-        }
-      },
-      "role4_anim5_false": {
-        "slots": {
-          "role1_pi": {
-            "attachment": [
-              {
-                "name": "role4_naiyou"
-              }
-            ]
-          },
-          "eye-yanzhu": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-yanbai": {
-            "attachment": [
-              {
-                "name": null
-              }
-            ]
-          },
-          "eye-jingya": {
-            "attachment": [
-              {
-                "name": "eye-cry"
-              }
-            ]
-          },
-          "mouth-normal": {
-            "attachment": [
-              {
-                "name": "mouth-cry"
-              }
-            ]
-          }
-        },
-        "bones": {
-          "saihong": {
-            "translate": [
-              {
-                "y": -7.14
-              }
-            ]
-          },
-          "body": {
-            "scale": [
-              {},
-              {
-                "time": 0.1667,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.3333
-              },
-              {
-                "time": 0.5,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 0.6667
-              },
-              {
-                "time": 0.8333,
-                "x": 0.85,
-                "y": 1.15
-              },
-              {
-                "time": 1
-              },
-              {
-                "time": 1.1667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.2333,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.3,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.3667,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.4333,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.5,
-                "x": 0.65,
-                "y": 1.35
-              },
-              {
-                "time": 1.5667,
-                "x": 0.6,
-                "y": 1.4
-              },
-              {
-                "time": 1.6667,
-                "y": 0.6
-              },
-              {
-                "time": 1.7667,
-                "y": 1.2
-              },
-              {
-                "time": 1.8667,
-                "y": 0.9
-              },
-              {
-                "time": 2
-              }
-            ]
-          },
-          "face": {
-            "translate": [
-              {
-                "y": -22
-              }
-            ],
-            "scale": [
-              {
-                "x": 0.9,
-                "y": 0.9
-              }
-            ]
-          }
-        }
       }
     }
   },
-  "_atlasText": "\nheibai.png\nsize: 1428,523\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\neft_smoke1-1\n  rotate: true\n  xy: 701, 254\n  size: 267, 232\n  orig: 283, 232\n  offset: 8, 0\n  index: -1\neft_smoke1-2\n  rotate: true\n  xy: 2, 238\n  size: 283, 231\n  orig: 283, 232\n  offset: 0, 1\n  index: -1\neft_smoke1-3\n  rotate: true\n  xy: 235, 251\n  size: 270, 220\n  orig: 283, 232\n  offset: 9, 12\n  index: -1\neft_smoke1-4\n  rotate: true\n  xy: 709, 6\n  size: 246, 214\n  orig: 283, 232\n  offset: 19, 11\n  index: -1\neft_smoke1-5\n  rotate: false\n  xy: 1165, 302\n  size: 242, 219\n  orig: 283, 232\n  offset: 25, 6\n  index: -1\neft_smoke1-6\n  rotate: true\n  xy: 488, 4\n  size: 248, 219\n  orig: 283, 232\n  offset: 20, 6\n  index: -1\neft_smoke2-1\n  rotate: true\n  xy: 925, 9\n  size: 243, 238\n  orig: 311, 254\n  offset: 41, 0\n  index: -1\neft_smoke2-2\n  rotate: true\n  xy: 261, 2\n  size: 247, 225\n  orig: 311, 254\n  offset: 39, 20\n  index: -1\neft_smoke2-3\n  rotate: false\n  xy: 2, 3\n  size: 257, 233\n  orig: 311, 254\n  offset: 35, 16\n  index: -1\neft_smoke2-4\n  rotate: true\n  xy: 457, 254\n  size: 267, 242\n  orig: 311, 254\n  offset: 30, 12\n  index: -1\neye-close\n  rotate: false\n  xy: 935, 453\n  size: 98, 22\n  orig: 98, 22\n  offset: 0, 0\n  index: -1\neye-cry\n  rotate: false\n  xy: 935, 342\n  size: 106, 32\n  orig: 106, 32\n  offset: 0, 0\n  index: -1\neye-happu\n  rotate: false\n  xy: 935, 432\n  size: 98, 19\n  orig: 98, 19\n  offset: 0, 0\n  index: -1\neye-jingya\n  rotate: false\n  xy: 935, 256\n  size: 101, 44\n  orig: 102, 44\n  offset: 1, 0\n  index: -1\neye-yanbai\n  rotate: false\n  xy: 935, 477\n  size: 101, 44\n  orig: 101, 44\n  offset: 0, 0\n  index: -1\neye-yanzhu\n  rotate: false\n  xy: 935, 401\n  size: 88, 29\n  orig: 88, 29\n  offset: 0, 0\n  index: -1\neyeborwL\n  rotate: true\n  xy: 1409, 309\n  size: 25, 8\n  orig: 25, 8\n  offset: 0, 0\n  index: -1\neyeborwR\n  rotate: true\n  xy: 1409, 309\n  size: 25, 8\n  orig: 25, 8\n  offset: 0, 0\n  index: -1\nmouth-cry\n  rotate: true\n  xy: 1409, 470\n  size: 30, 16\n  orig: 30, 16\n  offset: 0, 0\n  index: -1\nmouth-happy\n  rotate: true\n  xy: 1116, 267\n  size: 33, 23\n  orig: 33, 23\n  offset: 0, 0\n  index: -1\nmouth-jingya\n  rotate: false\n  xy: 1409, 502\n  size: 17, 19\n  orig: 17, 19\n  offset: 0, 0\n  index: -1\nmouth-normal\n  rotate: true\n  xy: 1141, 267\n  size: 33, 23\n  orig: 33, 23\n  offset: 0, 0\n  index: -1\nrole1_pi\n  rotate: true\n  xy: 1165, 24\n  size: 158, 121\n  orig: 158, 121\n  offset: 0, 0\n  index: -1\nrole2_xian\n  rotate: true\n  xy: 1038, 376\n  size: 145, 123\n  orig: 145, 123\n  offset: 0, 0\n  index: -1\nrole3_bing\n  rotate: true\n  xy: 1288, 39\n  size: 143, 136\n  orig: 144, 136\n  offset: 1, 0\n  index: -1\nrole4_naiyou\n  rotate: false\n  xy: 1166, 184\n  size: 159, 116\n  orig: 159, 116\n  offset: 0, 0\n  index: -1\nsaihong\n  rotate: true\n  xy: 1409, 336\n  size: 132, 14\n  orig: 132, 14\n  offset: 0, 0\n  index: -1\ntear\n  rotate: false\n  xy: 1077, 263\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nwen\n  rotate: false\n  xy: 1038, 260\n  size: 37, 40\n  orig: 37, 40\n  offset: 0, 0\n  index: -1\n",
+  "_atlasText": "\nheibai.png\nsize: 952,952\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n1_caomeidangao\n  rotate: true\n  xy: 505, 7\n  size: 87, 111\n  orig: 87, 111\n  offset: 0, 0\n  index: -1\n2_caomeidangao_\n  rotate: true\n  xy: 505, 96\n  size: 132, 130\n  orig: 132, 130\n  offset: 0, 0\n  index: -1\neft_smoke1-1\n  rotate: false\n  xy: 2, 241\n  size: 267, 232\n  orig: 283, 232\n  offset: 8, 0\n  index: -1\neft_smoke1-2\n  rotate: false\n  xy: 2, 719\n  size: 283, 231\n  orig: 283, 232\n  offset: 0, 1\n  index: -1\neft_smoke1-3\n  rotate: false\n  xy: 287, 730\n  size: 270, 220\n  orig: 283, 232\n  offset: 9, 12\n  index: -1\neft_smoke1-4\n  rotate: true\n  xy: 498, 482\n  size: 246, 214\n  orig: 283, 232\n  offset: 19, 11\n  index: -1\neft_smoke1-5\n  rotate: false\n  xy: 261, 9\n  size: 242, 219\n  orig: 283, 232\n  offset: 25, 6\n  index: -1\neft_smoke1-6\n  rotate: false\n  xy: 559, 731\n  size: 248, 219\n  orig: 283, 232\n  offset: 20, 6\n  index: -1\neft_smoke2-1\n  rotate: false\n  xy: 271, 230\n  size: 243, 238\n  orig: 311, 254\n  offset: 41, 0\n  index: -1\neft_smoke2-2\n  rotate: true\n  xy: 271, 470\n  size: 247, 225\n  orig: 311, 254\n  offset: 39, 20\n  index: -1\neft_smoke2-3\n  rotate: false\n  xy: 2, 6\n  size: 257, 233\n  orig: 311, 254\n  offset: 35, 16\n  index: -1\neft_smoke2-4\n  rotate: false\n  xy: 2, 475\n  size: 267, 242\n  orig: 311, 254\n  offset: 30, 12\n  index: -1\neye-close\n  rotate: true\n  xy: 671, 139\n  size: 98, 22\n  orig: 98, 22\n  offset: 0, 0\n  index: -1\neye-cry\n  rotate: true\n  xy: 637, 131\n  size: 106, 32\n  orig: 106, 32\n  offset: 0, 0\n  index: -1\neye-happu\n  rotate: true\n  xy: 815, 41\n  size: 98, 19\n  orig: 98, 19\n  offset: 0, 0\n  index: -1\neye-jingya\n  rotate: false\n  xy: 809, 746\n  size: 101, 44\n  orig: 102, 44\n  offset: 1, 0\n  index: -1\neye-yanbai\n  rotate: true\n  xy: 875, 419\n  size: 101, 44\n  orig: 101, 44\n  offset: 0, 0\n  index: -1\neye-yanzhu\n  rotate: true\n  xy: 618, 6\n  size: 88, 29\n  orig: 88, 29\n  offset: 0, 0\n  index: -1\neyeborwL\n  rotate: false\n  xy: 287, 720\n  size: 25, 8\n  orig: 25, 8\n  offset: 0, 0\n  index: -1\neyeborwR\n  rotate: false\n  xy: 287, 720\n  size: 25, 8\n  orig: 25, 8\n  offset: 0, 0\n  index: -1\nimg_caomei\n  rotate: false\n  xy: 856, 209\n  size: 71, 77\n  orig: 71, 77\n  offset: 0, 0\n  index: -1\nimg_dangao\n  rotate: true\n  xy: 714, 522\n  size: 207, 200\n  orig: 207, 200\n  offset: 0, 0\n  index: -1\nimg_quqi\n  rotate: true\n  xy: 854, 288\n  size: 114, 76\n  orig: 114, 76\n  offset: 0, 0\n  index: -1\nimg_tangyuan\n  rotate: false\n  xy: 695, 21\n  size: 118, 118\n  orig: 118, 118\n  offset: 0, 0\n  index: -1\nimg_xiaodangao\n  rotate: true\n  xy: 516, 239\n  size: 241, 191\n  orig: 241, 191\n  offset: 0, 0\n  index: -1\nmouth-cry\n  rotate: true\n  xy: 912, 760\n  size: 30, 16\n  orig: 30, 16\n  offset: 0, 0\n  index: -1\nmouth-happy\n  rotate: true\n  xy: 637, 96\n  size: 33, 23\n  orig: 33, 23\n  offset: 0, 0\n  index: -1\nmouth-jingya\n  rotate: false\n  xy: 836, 120\n  size: 17, 19\n  orig: 17, 19\n  offset: 0, 0\n  index: -1\nmouth-normal\n  rotate: false\n  xy: 856, 145\n  size: 33, 23\n  orig: 33, 23\n  offset: 0, 0\n  index: -1\nrole1_pi\n  rotate: true\n  xy: 809, 792\n  size: 158, 121\n  orig: 158, 121\n  offset: 0, 0\n  index: -1\nrole2_xian\n  rotate: false\n  xy: 709, 141\n  size: 145, 123\n  orig: 145, 123\n  offset: 0, 0\n  index: -1\nrole3_bing\n  rotate: false\n  xy: 709, 266\n  size: 143, 136\n  orig: 144, 136\n  offset: 1, 0\n  index: -1\nrole4_naiyou\n  rotate: false\n  xy: 714, 404\n  size: 159, 116\n  orig: 159, 116\n  offset: 0, 0\n  index: -1\nsaihong\n  rotate: true\n  xy: 932, 818\n  size: 132, 14\n  orig: 132, 14\n  offset: 0, 0\n  index: -1\ntear\n  rotate: false\n  xy: 856, 170\n  size: 37, 37\n  orig: 37, 37\n  offset: 0, 0\n  index: -1\nwen\n  rotate: true\n  xy: 815, 2\n  size: 37, 40\n  orig: 37, 40\n  offset: 0, 0\n  index: -1\n",
   "textures": [
     {
       "__uuid__": "dae975ca-1259-4b57-bd4a-93e218d7c82c"

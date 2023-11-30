@@ -177,6 +177,9 @@ var TeacherPanel = /** @class */ (function (_super) {
                 iconType = gezi.getChildByName("icon_node").children[0].getComponent(IconDrag_1.default).getIndex();
                 EditorManager_1.EditorManager.editorData.geziIconArr[gezi.getComponent(GeziArea_1.default).row][gezi.getComponent(GeziArea_1.default).col] = iconType;
             }
+            else {
+                EditorManager_1.EditorManager.editorData.geziIconArr[gezi.getComponent(GeziArea_1.default).row][gezi.getComponent(GeziArea_1.default).col] = 0;
+            }
         }
     };
     TeacherPanel.prototype.onHandleClick = function (data) {

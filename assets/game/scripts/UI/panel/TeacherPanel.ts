@@ -179,6 +179,8 @@ export default class TeacherPanel extends BaseTeacherPanel {
             if (gezi.getChildByName("icon_node").childrenCount > 0) {
                 iconType = gezi.getChildByName("icon_node").children[0].getComponent(IconDrag).getIndex();
                 EditorManager.editorData.geziIconArr[gezi.getComponent(GeziArea).row][gezi.getComponent(GeziArea).col] = iconType;
+            } else {
+                EditorManager.editorData.geziIconArr[gezi.getComponent(GeziArea).row][gezi.getComponent(GeziArea).col] = 0;
             }
         }
     }
