@@ -21,12 +21,17 @@ export default class GameUI extends cc.Component {
     private role_prefab: cc.Prefab = null;
     @property(cc.Node)
     private btn_submit_disabled: cc.Node = null;
+    @property(cc.VideoPlayer)
+    private videoPlayer: cc.VideoPlayer = null;
 
     onLoad() {
         ListenerManager.on(EventType.ENTER_GAME, this.handleEnterGame, this);
         ListenerManager.on(EventType.GAME_RECONNECT, this.initUI, this);
         ListenerManager.on(EventType.GAME_REPLAY, this.handleEnterGame, this);
         ListenerManager.on(EventType.CLICK_ROLE, this.handleClickRole, this);
+
+        //监听视频是否播放完毕
+        this.videoPlayer.node.on('completed', this.onVideoPlayerCompleted, this);
     }
 
     onDestroy() {
@@ -40,6 +45,25 @@ export default class GameUI extends cc.Component {
         if (!EditorManager.editorData.needEnd) {
             this.node.getChildByName("bg").active = false;
         }
+        this.videoPlayer.node.active = true;
+        this.videoPlayer.play();
+        // this.initUI();
+    }
+
+    private onVideoPlayerCompleted() {
+        console.log("视频播放完毕");
+
+        // cc.tween(this.videoPlayer.node).to(0.5, {opacity: 0}).call(() => {
+        //     this.videoPlayer.node.active = false;
+        // }).start();
+        this.captureNode.spriteFrame = this.CapturePicture();
+        this.captureNode.node.active = true;
+        this.scheduleOnce(() => {
+            this.videoPlayer.node.active = false;
+            cc.tween(this.captureNode.node).to(0.5, { opacity: 0 }).call(() => {
+                this.captureNode.node.active = false;
+            }).start();
+        }, 0.5);
         this.initUI();
     }
 
@@ -265,9 +289,9 @@ export default class GameUI extends cc.Component {
                 endRole = startNode;
             }
 
-            cc.tween(startRole).to(0.5, {position: endRole.position}).call(() => {
+            cc.tween(startRole).to(0.5, { position: endRole.position }).call(() => {
                 endRole.getComponent(Role).showChange();
-                startRole.opacity = 0;                
+                startRole.opacity = 0;
                 this.scheduleOnce(() => {
                     this.gameOver();
                 }, 2.5);
@@ -304,7 +328,51 @@ export default class GameUI extends cc.Component {
     private gameOver() {
         if (EditorManager.editorData.needEnd) {
             ListenerManager.dispatch(EventType.GAME_OVER);
-        }        
+        }
+    }
+
+    @property(cc.Sprite)
+    captureNode: cc.Sprite = null;
+    @property(cc.Camera)
+    private camera: cc.Camera = null;
+    @property(cc.Node)
+    private mm: cc.Node = null;
+
+    public CapturePicture() {
+        let data = this.captureTexture();
+        let texture = new cc.Texture2D()
+        texture.initWithData(data, cc.Texture2D.PixelFormat.RGBA8888, 2048, 1152);
+        let newSpriteFrame = new cc.SpriteFrame(texture);
+        newSpriteFrame.setFlipY(true);
+        return newSpriteFrame;
+    }
+    private captureTexture() {
+        this.mm.active = true;
+        let data = this.captureScreen(this.camera.getComponent(cc.Camera), this.mm);
+        this.mm.active = false;
+        return data;
+    }
+    private captureScreen(camera: cc.Camera, prop?: cc.Node | cc.Rect) {
+        let newTexture = new cc.RenderTexture();
+        let oldTexture = camera.targetTexture;
+        let rect: cc.Rect = cc.rect(0, 0, cc.visibleRect.width, cc.visibleRect.height);
+        if (prop) {
+            if (prop instanceof cc.Node) {
+                rect = prop.getBoundingBoxToWorld();
+            } else {
+                rect = prop;
+            }
+        }
+        rect.width = Math.ceil(rect.width);//特殊情况下数值是浮点类型的，转换成integer类型。这里width=2048;height=1152 直接写死数值也可以
+        rect.height = Math.ceil(rect.height);
+        newTexture.initWithSize(cc.visibleRect.width, cc.visibleRect.height, cc.game._renderContext.STENCIL_INDEX8);
+        camera.targetTexture = newTexture;
+        camera.render();
+        camera.targetTexture = oldTexture;
+        let buffer = new ArrayBuffer(rect.width * rect.height * 4);
+        let data = new Uint8Array(buffer);
+        newTexture.readPixels(data, rect.x, rect.y, rect.width, rect.height);
+        return data;
     }
 
 }

@@ -40,6 +40,10 @@ var GameUI = /** @class */ (function (_super) {
         _this.btn_node = null;
         _this.role_prefab = null;
         _this.btn_submit_disabled = null;
+        _this.videoPlayer = null;
+        _this.captureNode = null;
+        _this.camera = null;
+        _this.mm = null;
         return _this;
     }
     GameUI.prototype.onLoad = function () {
@@ -47,6 +51,8 @@ var GameUI = /** @class */ (function (_super) {
         ListenerManager_1.ListenerManager.on(EventType_1.EventType.GAME_RECONNECT, this.initUI, this);
         ListenerManager_1.ListenerManager.on(EventType_1.EventType.GAME_REPLAY, this.handleEnterGame, this);
         ListenerManager_1.ListenerManager.on(EventType_1.EventType.CLICK_ROLE, this.handleClickRole, this);
+        //监听视频是否播放完毕
+        this.videoPlayer.node.on('completed', this.onVideoPlayerCompleted, this);
     };
     GameUI.prototype.onDestroy = function () {
         ListenerManager_1.ListenerManager.off(EventType_1.EventType.ENTER_GAME, this.handleEnterGame, this);
@@ -58,6 +64,24 @@ var GameUI = /** @class */ (function (_super) {
         if (!EditorManager_1.EditorManager.editorData.needEnd) {
             this.node.getChildByName("bg").active = false;
         }
+        this.videoPlayer.node.active = true;
+        this.videoPlayer.play();
+        // this.initUI();
+    };
+    GameUI.prototype.onVideoPlayerCompleted = function () {
+        var _this = this;
+        console.log("视频播放完毕");
+        // cc.tween(this.videoPlayer.node).to(0.5, {opacity: 0}).call(() => {
+        //     this.videoPlayer.node.active = false;
+        // }).start();
+        this.captureNode.spriteFrame = this.CapturePicture();
+        this.captureNode.node.active = true;
+        this.scheduleOnce(function () {
+            _this.videoPlayer.node.active = false;
+            cc.tween(_this.captureNode.node).to(0.5, { opacity: 0 }).call(function () {
+                _this.captureNode.node.active = false;
+            }).start();
+        }, 0.5);
         this.initUI();
     };
     GameUI.prototype.initUI = function () {
@@ -321,6 +345,43 @@ var GameUI = /** @class */ (function (_super) {
             ListenerManager_1.ListenerManager.dispatch(EventType_1.EventType.GAME_OVER);
         }
     };
+    GameUI.prototype.CapturePicture = function () {
+        var data = this.captureTexture();
+        var texture = new cc.Texture2D();
+        texture.initWithData(data, cc.Texture2D.PixelFormat.RGBA8888, 2048, 1152);
+        var newSpriteFrame = new cc.SpriteFrame(texture);
+        newSpriteFrame.setFlipY(true);
+        return newSpriteFrame;
+    };
+    GameUI.prototype.captureTexture = function () {
+        this.mm.active = true;
+        var data = this.captureScreen(this.camera.getComponent(cc.Camera), this.mm);
+        this.mm.active = false;
+        return data;
+    };
+    GameUI.prototype.captureScreen = function (camera, prop) {
+        var newTexture = new cc.RenderTexture();
+        var oldTexture = camera.targetTexture;
+        var rect = cc.rect(0, 0, cc.visibleRect.width, cc.visibleRect.height);
+        if (prop) {
+            if (prop instanceof cc.Node) {
+                rect = prop.getBoundingBoxToWorld();
+            }
+            else {
+                rect = prop;
+            }
+        }
+        rect.width = Math.ceil(rect.width); //特殊情况下数值是浮点类型的，转换成integer类型。这里width=2048;height=1152 直接写死数值也可以
+        rect.height = Math.ceil(rect.height);
+        newTexture.initWithSize(cc.visibleRect.width, cc.visibleRect.height, cc.game._renderContext.STENCIL_INDEX8);
+        camera.targetTexture = newTexture;
+        camera.render();
+        camera.targetTexture = oldTexture;
+        var buffer = new ArrayBuffer(rect.width * rect.height * 4);
+        var data = new Uint8Array(buffer);
+        newTexture.readPixels(data, rect.x, rect.y, rect.width, rect.height);
+        return data;
+    };
     __decorate([
         property(cc.Node)
     ], GameUI.prototype, "geziType", void 0);
@@ -336,6 +397,18 @@ var GameUI = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], GameUI.prototype, "btn_submit_disabled", void 0);
+    __decorate([
+        property(cc.VideoPlayer)
+    ], GameUI.prototype, "videoPlayer", void 0);
+    __decorate([
+        property(cc.Sprite)
+    ], GameUI.prototype, "captureNode", void 0);
+    __decorate([
+        property(cc.Camera)
+    ], GameUI.prototype, "camera", void 0);
+    __decorate([
+        property(cc.Node)
+    ], GameUI.prototype, "mm", void 0);
     GameUI = __decorate([
         ccclass
     ], GameUI);
